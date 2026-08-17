@@ -1,0 +1,120 @@
+{%- assign talk = page -%}
+
+{%- unless talk.hide -%}
+  {%- include header.html -%}
+
+  <section class="talk-hero">
+
+    {% if talk.track or talk.tags.size > 0 %}
+      <div class="talk-hero-meta">
+
+        {% if talk.track %}
+          {% include get_track_properties.html %}
+          <span class="talk-track bg-{{ track_color }}-subtle text-{{ track_color }}-emphasis border-start border-4 border-{{ track_color }}-subtle">
+            {{ talk.track }}
+          </span>
+        {% endif %}
+
+        {% if talk.tags.size > 0 %}
+          {% for tag in talk.tags %}
+            {%- include get_tag_icon.html -%}
+            <span class="talk-tag">
+              {{ tag_html }}
+            </span>
+          {% endfor %}
+        {% endif %}
+
+      </div>
+    {% endif %}
+
+    <h1>{{ talk.name }}</h1>
+
+    {% if talk.speakers %}
+      <div class="talk-speakers">
+        {% include list_speakers.html %}
+      </div>
+    {% endif %}
+
+    <div class="talk-program-info">
+      {% for d in site.data.program.days -%}
+        {%- include get_day_hash.html -%}
+
+        {%- for r in d.rooms -%}
+          {%- for t in r.talks -%}
+
+            {%- if talk.name == t.name -%}
+              {%- include show_talk_info.html -%}
+            {% endif %}
+
+          {% endfor %}
+        {% endfor %}
+
+      {% endfor %}
+    </div>
+
+  </section>
+
+  <article class="talk-content">
+    {{ content }}
+  </article>
+
+  {% include get_link_types.html %}
+
+  {% if has_icon_links > 0 %}
+    <ul class="list-unstyled talk-links talk-links-icons">
+      {% for link in talk.links %}
+        {% include get_link.html type="icon" color=track_color %}
+
+        {% if link_valid %}
+          {{ link_list_item }}
+        {% endif %}
+
+      {% endfor %}
+    </ul>
+  {% endif %}
+
+  {% if has_regular_links > 0 %}
+    <section class="talk-more-information">
+
+      <h5 class="mt-4 mb-2">
+        {{ site.data.lang[site.conference.lang].more_information | default: "More information" }}
+      </h5>
+
+      <ul class="list-unstyled">
+        {% for link in talk.links %}
+          {% include get_link.html color=track_color %}
+
+          {% if link_valid %}
+            {{ link_list_item }}
+          {% endif %}
+
+        {% endfor %}
+      </ul>
+
+    </section>
+  {% endif %}
+
+  <nav class="talk-navigation d-print-none d-pwa-none mt-5">
+
+    <a
+      href="{{ page.collection | prepend: '/' | prepend: site.baseurl }}"
+      class="btn btn-outline-secondary me-2"
+    >
+      <i class="bi bi-megaphone" aria-hidden="true"></i>
+      &nbsp;{{ site.data.lang[site.conference.lang].overview | default: "Overview" }}
+    </a>
+
+    {%- include get_program_config.html -%}
+
+    <a
+      href="{{ program_url | prepend: site.baseurl }}"
+      class="btn btn-outline-secondary"
+    >
+      <i class="bi bi-calendar4-week" aria-hidden="true"></i>
+      &nbsp;{{ site.data.lang[site.conference.lang].program.title | default: "Program" }}
+    </a>
+
+  </nav>
+
+  {%- include footer.html -%}
+{%- endunless -%}
