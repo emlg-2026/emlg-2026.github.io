@@ -1,5 +1,5 @@
 ---
-name: "EMLG/JMLG Board Meeting"
+name: 'EMLG/JMLG Board Meeting'
 track: "Social / Other"
 ---
 

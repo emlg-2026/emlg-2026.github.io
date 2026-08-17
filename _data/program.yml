@@ -53,7 +53,7 @@ days:
     - name: 'EMLG/JMLG Board Meeting'
       time_start: '17:00'
       time_end: '18:00'
-    - name: Early-Career Networking Session
+    - name: 'Early-Career Networking Session'
       time_start: '17:00'
       time_end: '18:00'
     - name: "Civic Reception (drinks and nibbles) – Glasgow City Chambers"
