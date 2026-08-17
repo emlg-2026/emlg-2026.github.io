@@ -6,7 +6,7 @@ days:
   - name: Main Auditorium
     talks:
     - name: Registration and Coffee
-      time_start: 09:00
+      time_start: '09:00'
       time_end: '10:15'
     - name: Opening Address
       time_start: '10:15'

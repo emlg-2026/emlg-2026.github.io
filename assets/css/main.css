@@ -1,0 +1,21 @@
+.program-table-container {
+  overflow-x: visible !important;
+}
+
+.program-table {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+.program-table .program-space {
+  display: none;
+}
+
+.program-table .program-time {
+  white-space: nowrap;
+  width: 4.5rem;
+}
+
+.program-table .program-talk {
+  width: auto !important;
+}
