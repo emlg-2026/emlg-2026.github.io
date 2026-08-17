@@ -41,6 +41,38 @@ conference:
   tz: "+01:00"
   show_errors: true
 
+conference:
+  lang: en
+  tz: "+01:00"
+  show_errors: true
+
+  talks:
+    tracks:
+      - name: Session 1
+        color: success
+      - name: Session 2
+        color: info
+      - name: Session 3
+        color: warning
+      - name: Session 4
+        color: primary
+      - name: Session 5
+        color: danger
+      - name: Session 6
+        color: success
+      - name: Session 7
+        color: info
+      - name: Session 8
+        color: warning
+      - name: Session 9
+        color: primary
+      - name: Session 10
+        color: danger
+      - name: Session 11
+        color: secondary
+
+
+
   navigation:
     links:
       - name: Programme
