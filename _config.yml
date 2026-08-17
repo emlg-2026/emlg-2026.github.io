@@ -3,7 +3,7 @@ description: Programme and book of abstracts for EMLG 2026
 url: "https://emlg-2026.github.io"
 baseurl: ""
 
-remote_theme: "DigitaleGesellschaft/jekyll-theme-conference@v4.0.2"
+theme: jekyll-theme-conference
 
 plugins:
   - jekyll-include-cache
