@@ -12,17 +12,6 @@ email: hirofumi@moleng.kyoto-u.ac.jp
 abstract_source: Sato1.docx
 ---
 
-### Authors
-
-H. Sato<sup>1</sup><sup>,2</sup>
-
-### Affiliations
-
-1. Department of Molecular Engineering, Kyoto University  
-2. Fukui Institute for Fundamental Chemistry, Kyoto University  
-
-**Contact:** [hirofumi@moleng.kyoto-u.ac.jp](mailto:hirofumi@moleng.kyoto-u.ac.jp)
-
 ### Abstract
 
 Self-assembly, in which highly ordered structures form spontaneously, has attracted the attention of many researchers. Whilst it is often described as a quantitative conversion that yields a unique product from a macroscopic perspective, the process involves many intermediates that connect to form a complex network of numerous elementary steps at the molecular level. To gain insight into the process, a comprehensive approach is vital, and we have been developing a variety of theoretical approaches, including statistical mechanics for liquids, quantum chemistry, dynamical theory and so on. Prof Hiraoka (U Tokyo) developed an experimental protocol utilising NMR, called QASAP. As the theoretical counterpart, we developed NASAP (numerical analysis of the self-assembly process), providing more detailed information. In this treatment, the process is simulated on the network of possible intermediates using the Gillespie algorithm to be consistent with QASAP. The analysis has been successfully applied to various systems [1], especially in drawing a new perspective on a chemical reaction network [2]. Figure 1 illustrates an example of NASAP, in which a caged dinuclear palladium complex [Pd2L4]4+ is analysed as a time evolution of the self-assembly [3].

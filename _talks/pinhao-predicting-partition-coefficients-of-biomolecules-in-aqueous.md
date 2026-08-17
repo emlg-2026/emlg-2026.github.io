@@ -15,16 +15,6 @@ email: margaridapinhao@ua.pt
 abstract_source: Pinhão1.docx
 ---
 
-### Authors
-
-A. Margarida D. Pinhão<sup>1</sup>, B. Emanuel V. Capela<sup>1</sup>, C. João A. P. Coutinho<sup>1</sup>, D. Mara G. Freire<sup>1</sup>, E. Dinis O. Abranches<sup>1</sup>
-
-### Affiliations
-
-1. CICECO-Aveiro Institute of Materials, Department of Chemistry, University of Aveiro, Portugal  
-
-**Contact:** [margaridapinhao@ua.pt](mailto:margaridapinhao@ua.pt)
-
 ### Abstract
 
 Aqueous Biphasic Systems (ABSs) have emerged as a viable approach in the purification of biomolecules without loss of biological activity. Unlike traditional water-organic biphasic systems, ABSs consist of two immiscible aqueous phases and are non-toxic, non-flammable, and biocompatible. Ionic liquids (ILs) are often used as ABS constituents to better control biomolecule-solvent interactions and enhance separation performance. However, given the vast library of ILs, the selection of suitable systems for each target biomolecule relies on laborious trial-and-error campaigns. Machine learning (ML), particularly Gaussian process (GP) models have been shown to be capable of predicting physicochemical properties of materials and emerge as a viable alternative to help design IL- based ABSs.

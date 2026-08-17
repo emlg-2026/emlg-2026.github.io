@@ -12,16 +12,6 @@ email: d.j.cleaver@shu.ac.uk
 abstract_source: Cleaver1.docx
 ---
 
-### Authors
-
-A. Dastan<sup>1</sup>, J. Earnshaw<sup>1</sup> and D.J. Cleaver<sup>1</sup>
-
-### Affiliations
-
-1. Materials and Engineering Research Institute, Sheffield Hallam University  
-
-**Contact:** [d.j.cleaver@shu.ac.uk](mailto:d.j.cleaver@shu.ac.uk)
-
 ### Abstract
 
 Most of the twisted fibres and threads found in natural systems are formed through spontaneous self-assembly of small molecules, such as peptides, and stabilised by hydrogen bonds rather than covalent cross-links [1]. This can lead to amazing structures, since the inherent flexibility of hydrogen bonds allows for morphological change within a self-assembly pathway. However, it also imposes a considerable restriction - for a given object type to exist it needs not only to

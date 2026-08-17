@@ -13,16 +13,6 @@ email: junhochoi@gist.ac.kr
 abstract_source: Choi1.docx
 ---
 
-### Authors
-
-R. Singh<sup>1</sup>, J. Ryu<sup>1</sup>, J.-H. Choi<sup>1</sup>
-
-### Affiliations
-
-1. Department of Chemistry, Gwangju Institute of Science and Technology (GIST), Republic of Korea  
-
-**Contact:** [junhochoi@gist.ac.kr](mailto:junhochoi@gist.ac.kr)
-
 ### Abstract
 
 Understanding mixing and de-mixing behavior in various solutions is critical in basic science and industrial fields, but the clarification of operation at molecular level remains a challenge. Recently, we have attempted to elucidate the liquid-liquid and liquid-solid phase separation phenomena in terms of molecular aggregation behavior in diverse aqueous solutions. [1] At the high solute concentrations in solute-water mixtures, the solute molecules exhibit a tendency to self-associate with distinct morphological structure in varying composition of mixture. The topological structure of molecular aggregates was examined by using molecular dynamics (MD) simulation and graph theoretical analysis. The two representative molecular aggregates are shown, that is, closely packed aggregates are formed by less interaction with water, while spatially extended aggregates are formed through significant interaction with water. The relationships between molecular aggregation behavior and mixing, de-mixing process were demonstrated in salt solutions [1], upper critical solution temperature (UCST) [2], lower critical solution temperature [3], loop-behavior systems [4] employing MD simulation studies and graph theory.

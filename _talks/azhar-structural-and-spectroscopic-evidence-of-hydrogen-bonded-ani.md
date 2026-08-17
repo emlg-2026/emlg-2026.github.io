@@ -16,17 +16,6 @@ email: ralf.ludwig@uni-rostock.de
 abstract_source: Azhar1.docx.docx
 ---
 
-### Authors
-
-Maham Azhar<sup>1</sup>, Loai Al-Sheakh<sup>1</sup>, Lasse Hunger<sup>1</sup>, Andreas Appelhagen<sup>1</sup>, Lennart Kruse<sup>1</sup> and Ralf Ludwig<sup>1,2</sup>*
-
-### Affiliations
-
-1. Institut für Chemie, Abteilung Physikalische Chemie Universität Rostock, Albert-Einstein-Straße 27, 18059 Rostock, Germany  
-2. Leibniz Institut für Katalyse an der Universität Rostock e.V. Albert-Einstein-Straße 29a, 18059 Rostock, Germany  
-
-**Contact:** [ralf.ludwig@uni-rostock.de](mailto:ralf.ludwig@uni-rostock.de)
-
 ### Abstract
 
 Hydrogen Bonding between ions of like charge challenges the fundamental principle of electrostatics that opposite charges attract and like charges repel. We used triethylamine ((CH3CH2)3N) and two different alkanedicarboxylic acids (HOOC(CH2)nCOOH) with n = 0,1, namely ethanedionic (oxalic) and propanedionic (malonic) acid in equal ratio.

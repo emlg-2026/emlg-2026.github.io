@@ -34,6 +34,17 @@ from docx import Document
 from lxml import etree
 
 
+TITLE_OVERRIDES = {
+    "Takamuku1.docx": (
+        "LCST-type Phase Separation of "
+        "Phosphonium-based Ionic Liquid-Water Mixed Solutions"
+    ),
+    "RuizBarragan1.docx": (
+        "Water self-dissociation in slit pores "
+        "displays non-monotonic behavior as a function of water filling"
+    ),
+}
+
 W_NS = "http://schemas.openxmlformats.org/wordprocessingml/2006/main"
 A_NS = "http://schemas.openxmlformats.org/drawingml/2006/main"
 R_NS = "http://schemas.openxmlformats.org/officeDocument/2006/relationships"
@@ -344,14 +355,14 @@ def dump_front_matter(data: dict[str, Any]) -> str:
 
 def render_markdown(parsed: ParsedAbstract, talk_slug: str, figure_files: list[tuple[Figure, str]]) -> str:
     lines: list[str] = []
-    if parsed.author_html:
-        lines += ["### Authors", "", parsed.author_html, ""]
-    if parsed.affiliations:
-        lines += ["### Affiliations", ""]
-        lines += [f"{a}  " for a in parsed.affiliations]
-        lines.append("")
-    if parsed.email:
-        lines += [f"**Contact:** [{parsed.email}](mailto:{parsed.email})", ""]
+####    if parsed.author_html:
+####        lines += ["### Authors", "", parsed.author_html, ""]
+####    if parsed.affiliations:
+####        lines += ["### Affiliations", ""]
+####        lines += [f"{a}  " for a in parsed.affiliations]
+####        lines.append("")
+####    if parsed.email:
+####        lines += [f"**Contact:** [{parsed.email}](mailto:{parsed.email})", ""]
 
     lines += ["### Abstract", ""]
     fig_iter = iter(figure_files)
@@ -454,7 +465,9 @@ def main(argv: list[str] | None = None) -> int:
             print(f"ERROR     {source.name}: {exc}")
             continue
 
-        status, match, alternatives = match_talk(parsed.title, talks, args.threshold, args.ambiguity_gap)
+        matched_title = TITLE_OVERRIDES.get(source.name, parsed.title)
+
+        status, match, alternatives = match_talk(matched_title, talks, args.threshold, args.ambiguity_gap)
         if status == "matched" and match:
             talk_path, fm, score = match
             counts["matched"] += 1

@@ -14,16 +14,6 @@ email: jdinis@ua.pt
 abstract_source: Abranches2.docx
 ---
 
-### Authors
-
-João P. Santos<sup>1</sup>, Filipe H. B. Sosa<sup>1</sup>, Dinis O. Abranches<sup>1</sup>, João A. P. Coutinho<sup>1</sup>
-
-### Affiliations
-
-1. CICECO—Aveiro Institute of Materials, Department of Chemistry, University of Aveiro, 3810-193 Aveiro, Portugal  
-
-**Contact:** [jdinis@ua.pt](mailto:jdinis@ua.pt)
-
 ### Abstract
 
 Deep eutectic solvents (DESs), binary liquid mixtures noted for their strong intermolecular interactions, have emerged as promising green alternatives to traditional organic solvents. The design of these novel solvents is complex, as their properties do not simply reflect the weighted average of their precursors. Incorporating low molecular weight compounds, such as water, to reduce viscosity or modulate other properties is a common practice. This leads to an overly complex and extensive DES design space, where the number, chemical nature, and relative composition of precursors must be carefully tuned [1]. Machine learning (ML), with its innate ability to correlate variables, presents a promising alternative to trial-and-error approaches in the design of DESs.

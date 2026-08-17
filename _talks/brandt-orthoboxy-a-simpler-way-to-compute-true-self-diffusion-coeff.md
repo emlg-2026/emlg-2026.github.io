@@ -14,17 +14,6 @@ email: marcel.brandt@uni-rostock.de
 abstract_source: Brandt1.docx
 ---
 
-### Authors
-
-M. Brandt<sup>1</sup>, D. Paschek<sup>1</sup>, R. Ludwig<sup>1</sup><sup>,2</sup>
-
-### Affiliations
-
-1. University of Rostock, Albert-Einstein-Str. 27, 18059 Rostock, Germany  
-2. Leibniz Institute of Catalysis, Albert-Einstein-Str. 29A, 18059 Rostock, Germany  
-
-**Contact:** [marcel.brandt@uni-rostock.de](mailto:marcel.brandt@uni-rostock.de)
-
 ### Abstract
 
 Self-diffusion coefficients calculated from molecular dynamics (MD) simulations with periodic boundary conditions are known to exhibit a system size-dependence. The deviation from the “true” system size-independent self-diffusion coefficient can be calculated via a correction term to the simulated self-diffusion coefficient. This correction, known as the Yeh-Hummer correction, requires the knowledge of the viscosity and shows a 1/L dependency, where L is the length of a cubic simulation box. [1]

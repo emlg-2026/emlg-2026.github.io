@@ -16,17 +16,6 @@ email: k.jelfs@imperial.ac.uk
 abstract_source: Ren1.docx
 ---
 
-### Authors
-
-Gaopeng Ren<sup>1</sup>, Austin M. Mroz<sup>1,2</sup>, Frederik Philippi<sup>1</sup>, Tom Welton<sup>1</sup>, Kim E. Jelfs<sup>1*</sup>
-
-### Affiliations
-
-1. Department of Chemistry, Imperial College London, White City Campus, London, UK  
-2. I-X Centre for AI in Science, Imperial College London, White City Campus, London, UK  
-
-**Contact:** [k.jelfs@imperial.ac.uk](mailto:k.jelfs@imperial.ac.uk)
-
 ### Abstract
 
 Ionic liquids (ILs) are promising materials with applications in catalysis, energy storage, and separations, but their discovery is limited by the vast chemical space and scarcity of experimental data. These studies present machine learning frameworks using variational autoencoders (VAEs) and conditional variational autoencoders (CVAEs) to generate novel low-melting-point ILs. One approach combines graph-based link prediction with VAEs to expand known IL datasets and generate diverse cation–anion combinations, while another introduces ion-scoring methods and large PubChem ion datasets to improve structural diversity. Both studies incorporate melting point prediction and molecular dynamics validation to identify ILs with melting points below 373 K. The results demonstrate that integrating generative deep learning, graph neural networks, tabular models and physics-informed filtering can efficiently expand IL chemical space and accelerate the discovery of low-melting-point ILs.

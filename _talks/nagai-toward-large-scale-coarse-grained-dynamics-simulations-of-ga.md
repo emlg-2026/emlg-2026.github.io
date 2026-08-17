@@ -25,22 +25,6 @@ email: tnagai@okayama-u.ac.jp
 abstract_source: Nagai1.docx
 ---
 
-### Authors
-
-Tetsuro Nagai<sup>1</sup>, Zhiye Tang<sup>2</sup>, Yoshitake Sakae<sup>3</sup>, Tatsuya Yamada<sup>4</sup>, Nobuaki Kikkawa<sup>5</sup>, Ryosuke Jinnouchi<sup>5</sup>, Kumiko Nomura<sup>6</sup>, Masayuki Kimura<sup>6</sup>, and Susumu Okazaki<sup>7</sup>
-
-### Affiliations
-
-1. Research Institute for Interdisciplinary Science, Okayama University, Japan  
-2. Institute for Molecular Science, Japan  
-3. Center for Management of Information Technologies, Kagoshima University, Japan  
-4. Research Organization for Information Science and Technology, Japan  
-5. Toyota Central R&D Labs., Inc., Japan  
-6. Toyota Motor Corporation, Japan  
-7. Graduate School of Nanobioscience, Yokohama City University, Japan  
-
-**Contact:** [tnagai@okayama-u.ac.jp](mailto:tnagai@okayama-u.ac.jp)
-
 ### Abstract
 
 Mass transport within heterogeneous media is a widespread phenomenon observed in various physical, chemical, and biological systems. Examples of such heterogeneous media include gas separation membranes for carbon capture, polymer electrolyte membranes, and the cathode catalyst layers of fuel cells. Molecular diffusion is key to understanding mass transport and molecular dynamics (MD) simulations are a powerful tool for examining the diffusion process in atomistic detail. However, the timescales associated with molecular diffusion in heterogeneous systems often exceed those accessible by conventional all-atom MD simulations, thereby limiting the direct applicability of MD to these problems.

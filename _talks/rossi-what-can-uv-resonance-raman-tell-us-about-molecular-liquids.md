@@ -12,17 +12,6 @@ email: barbara.rossi@elettra.eu
 abstract_source: Rossi_abstract.docx
 ---
 
-### Authors
-
-B. Rossi<sup>1</sup>
-
-### Affiliations
-
-1. Elettra Sincrotrone Trieste, Strada Statale 14 - km 163,5 in AREA Science Park  
-34149. Basovizza, Trieste ITALY  
-
-**Contact:** [barbara.rossi@elettra.eu](mailto:barbara.rossi@elettra.eu)
-
 ### Abstract
 
 Raman spectroscopy is a well-established inelastic scattering technique that is widely used in laboratories for the detection and molecular characterization of various types of matter, including liquids, solutions, and gels. Raman spectra contain unique information about molecular vibrations, providing spectroscopic fingerprints that are highly sensitive to molecular reorganization, conformational changes, and intermolecular interactions. UV Resonance Raman (UVRR) spectroscopy is a variant of the standard Raman technique that exploits the tuning of the incident light into an electronic absorption band of the sample, thereby enhancing selected vibrational modes. Thanks to this resonance effect, UVRR offers several advantages compared to conventional off-resonance Raman spectroscopy, such as: (i) a significant increase in detection sensitivity, (ii) selective, label-free probing of specific functional groups in the sample, and (iii) suppression of the interfering fluorescence background, which often limits Raman signal detection. These features make UVRR spectroscopy a highly sensitive and selective label-free probe for investigating the structure and dynamics of molecular liquids. Through resonant enhancement of selected vibrational modes, UVRR provides insights into intermolecular interactions, solvation processes, and structural fluctuations in the liquid phase.

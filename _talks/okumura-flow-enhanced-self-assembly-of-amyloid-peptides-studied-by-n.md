@@ -15,18 +15,6 @@ email: hokumura@ims.ac.jp
 abstract_source: Okumura1.docx
 ---
 
-### Authors
-
-M. Otawa<sup>1</sup><sup>,2</sup>, S. G. Itoh<sup>1</sup><sup>,2,3</sup>, H. Okumura<sup>1,2,3</sup>
-
-### Affiliations
-
-1. The Graduate University for Advanced Studies  
-2. Institute for Molecular Science  
-3. Exploratory Research Center on Life and Living Systems  
-
-**Contact:** [hokumura@ims.ac.jp](mailto:hokumura@ims.ac.jp)
-
 ### Abstract
 
 Alzheimer’s disease is associated with aggregates of amyloid-β (Aβ) peptides. Aβ peptides exist in extracellular fluids, whose fluidity is higher than that of intracellular environments, suggesting that flow effects should be considered in the aggregation process. Recently, it was experimentally reported that flow on extracellular membrane surfaces enhances the aggregation of Aβ peptides. However, the molecular mechanism underlying this phenomenon remains unclear.

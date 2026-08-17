@@ -20,18 +20,6 @@ email: klaas.wynne@glasgow.ac.uk
 abstract_source: Wynne_1.docx
 ---
 
-### Authors
-
-Zhiyu Liao,<sup>1</sup> Ankita Das,<sup>1</sup> Ben A. Russell,<sup>1 </sup>Ikhlas M.M. Ahmed,<sup>2</sup> Immacolata Abate,<sup>2</sup> Ian MacLaren,<sup>3</sup> Rebecca Beveridge,<sup>2</sup> and Klaas Wynne<sup>1</sup>
-
-### Affiliations
-
-1. School of Chemistry, University of Glasgow, G12 8QQ, UK  
-2. Dept. of Pure and Applied Chemistry, University of Strathclyde, Glasgow G1 1XL, UK  
-3. School of Physics and Astronomy, University of Glasgow, Glasgow, G12 8QQ UK  
-
-**Contact:** [klaas.wynne@glasgow.ac.uk](mailto:klaas.wynne@glasgow.ac.uk)
-
 ### Abstract
 
 The structure of solutions is traditionally assumed to consist of individual solvated solute molecules, occasionally forming transient dimers or small clusters. Here we show that this textbook view is fundamentally incomplete: concentrated aqueous electrolyte solutions contain a previously unrecognised metastable amorphous phase composed of amorphous aggregates (AAs), into which the majority of solute molecules spontaneously assemble, even under undersaturated conditions.1 Using a range of experimental techniques, we reveal a hierarchical population extending from molecular oligomers to micrometre-scale amorphous fractal solids and millimetre-scale assemblies. AAs form by a barrierless diffusion-limited process, rationalised by a modification of classical nucleation theory that accounts for their reduced free-energy barrier and fractal structure. These findings demonstrate that a metastable amorphous aggregate phase is intrinsic to concentrated solutions, revising the classical description of solubility, supersaturation and nucleation kinetics.

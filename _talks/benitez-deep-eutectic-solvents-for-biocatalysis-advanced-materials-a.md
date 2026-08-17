@@ -15,18 +15,6 @@ email: francisca.benitez@dipc.org
 abstract_source: Benítez1.docx
 ---
 
-### Authors
-
-Francisca J. Benítez<sup>1,2</sup>, Elena Formoso <sup>1,3</sup>, Elixabete Rezabal <sup>1,2</sup>
-
-### Affiliations
-
-1. Donostia International Physics Center, Donostia - Sebastián, Spain  
-2. Polymers and Advanced Materials Department, Faculty of Chemistry, University of the Basque Country UPV/EHU, Donostia - San Sebastián, Spain  
-3. Kimika Fisikoa, Farmazia Fakultatea, Euskal Herriko Unibertsitatea UPV/EHU, Gasteiz, Spain  
-
-**Contact:** [francisca.benitez@dipc.org](mailto:francisca.benitez@dipc.org)
-
 ### Abstract
 
 Deep eutectic solvents (DESs) are formed through the association of hydrogen-bond acceptors (HBAs) and hydrogen-bond donors (HBDs), generating eutectic mixtures with melting temperatures lower than those of their individual components. Their tunable composition and hydrogen-bonding interactions enable the design of microenvironments of interest for biocatalytic applications.

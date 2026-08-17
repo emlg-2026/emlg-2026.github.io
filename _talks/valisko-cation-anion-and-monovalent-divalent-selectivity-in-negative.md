@@ -18,18 +18,6 @@ email: valisko.monika@mk.uni-pannon.hu
 abstract_source: Valisko2.docx
 ---
 
-### Authors
-
-Eszter Molnárné Lakics<sup>1</sup>, Zoltán Ható<sup>1</sup>, Salman Shabbir<sup>1,2</sup>, Dirk Gillespie<sup>3</sup>, Dezső Boda<sup>1</sup>, Mónika Valiskó<sup>1</sup>
-
-### Affiliations
-
-1. Center for Natural Sciences, University of Pannonia, Hungary  
-2. Department of Engineering, Reykjavik University, Iceland  
-3. Department of Physiology and Biophysics, Rush University Medical Center, Chicago, USA  
-
-**Contact:** [valisko.monika@mk.uni-pannon.hu](mailto:valisko.monika@mk.uni-pannon.hu)
-
 ### Abstract
 
 The anomalous mole fraction effect (AMFE) is widely regarded as a hallmark of calcium versus monovalent ion selectivity in negatively charged pores [1]. In this experiment, a mixture of CaCl2 and monovalent electrolytes (NaCl or KCl) are used and the total conductance versus mole fraction function is computed. We talk about AMFE if this function has a minimum, but in general, this function is nonlinear due to strong correlations of ions with each other and with the charged pore wall. While AMFE is well understood in highly cation-selective narrow ion channels [2], its microscopic origin in wide synthetic nanopores, where anions may also contribute to transport, remains less clear [3].

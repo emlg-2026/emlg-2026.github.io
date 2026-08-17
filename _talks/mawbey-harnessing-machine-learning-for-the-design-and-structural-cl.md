@@ -14,16 +14,6 @@ email: a.mawbey@strath.ac.uk
 abstract_source: Mawbey1.docx
 ---
 
-### Authors
-
-A. Mawbey<sup>1</sup>, T. Stavert<sup>1</sup>, J. Cardona<sup>1</sup>, M. Jorge<sup>1</sup>
-
-### Affiliations
-
-1. Department of Chemical and Process Engineering, University of Strathclyde, 75 Montrose Street, Glasgow G1 1XJ, UK  
-
-**Contact:** [a.mawbey@strath.ac.uk](mailto:a.mawbey@strath.ac.uk)
-
 ### Abstract
 
 Understanding the self-assembly process involved in producing ordered mesoporous silica (OMS) is vital to both improve control over the molecular structure and guide the design of sustainable manufacturing of these materials. Whilst the use of ammonium surfactants (e.g. cetyltrimethylammonium bromide, CTAB) produces a highly ordered OMS with a variety of potential applications (separations, catalysis, drug delivery, etc.) [1], the economic and environmental limitations of this surfactant impose limits on its large-scale industrial use. Efforts have been made to use more environmentally friendly amine surfactants, such as dodecylamine (DDA), but this invariably has led to a much lower degree of order in the resulting porous structures [2].

@@ -11,16 +11,6 @@ email: noriwo@nagoya-u.ac.jp
 abstract_source: Yoshida1.docx
 ---
 
-### Authors
-
-N. Yoshida<sup>1</sup>
-
-### Affiliations
-
-1. Graduate School of Informatics, Nagoya University  
-
-**Contact:** [noriwo@nagoya-u.ac.jp](mailto:noriwo@nagoya-u.ac.jp)
-
 ### Abstract
 
 Biological environments are composed of complex mixtures of water, electrolytes, proteins, lipids, and various other biomolecules. To design biocompatible materials that function effectively in such environments, it is essential to account for the intricate physicochemical properties of these multi-component solutions. Traditional simulation approaches often face challenges when trying to capture solvent effects at molecular resolution, especially in heterogeneous and biologically relevant conditions.

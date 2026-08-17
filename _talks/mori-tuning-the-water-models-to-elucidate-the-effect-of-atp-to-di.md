@@ -13,17 +13,6 @@ email: toshi_mori@moleng.kyoto-u.ac.jp
 abstract_source: Mori1.docx
 ---
 
-### Authors
-
-Toshifumi Mori<sup>1</sup>, Norio Yoshida<sup>2</sup>
-
-### Affiliations
-
-1. Graduate School of Engineering, Kyoto University  
-2. Graduate School of Informatics, Nagoya University  
-
-**Contact:** [toshi_mori@moleng.kyoto-u.ac.jp](mailto:toshi_mori@moleng.kyoto-u.ac.jp)
-
 ### Abstract
 
 ATP plays a fundamental role as an energy currency in biomolecular systems. The concentration of ATP in cells is yet much higher than what is needed for proteins to function. It has recently been realized that ATP in high concentration can dissolve protein aggregates and regulate liquid-liquid phase separations, indicating the role of ATP as a hydrotrope [1]. To understand its underlying molecular mechanism, molecular dynaimics (MD) simulations have been applied to study the ATP-protein interactions. Yet, ATP molecules in MD simulations with classical force fields tend to over-aggregate compared to experimental dissociation constants [2], and aggregation of ATP molecules can negatively affect the protein-ATP interactions. We anticipated that this over-aggregation is partly due to the TIP3P water model, which is widely used but has been known to fail in properly describing protein unfolded state, e.g., shows over-compact character.

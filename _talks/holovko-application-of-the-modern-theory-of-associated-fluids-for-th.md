@@ -11,16 +11,6 @@ email: holovko@icmp.lviv.ua
 abstract_source: Holovko_M_F2.docx
 ---
 
-### Authors
-
-Myroslav Holovko
-
-### Affiliations
-
-Yukhnovskii Institute for Condensed Matter Physics of the NAS of Ukraine, 1 Svientsitskii str., Lviv, 79011, Ukraine.  
-
-**Contact:** [holovko@icmp.lviv.ua](mailto:holovko@icmp.lviv.ua)
-
 ### Abstract
 
 We analyse the possibility of the application of the statistical-mechanical approaches developed in the modern theory of associative fluids for the description of self-assembly phenomena of surfactant molecules in aqueous solutions [1]. In developed theoretical formalism, the potentials of intermolecular interactions are split into three parts. One of them is the short-range repulsive part responsible for excluded volume effects by molecules. The second one is the short-range strongly attractive part responsible for different clusterization effects, including self-assembly phenomena. The third part is long-range and responsible for the screening and renormalization phenomena. The specificity of the developed approach are connected with the application of the activity diagram expansions for the description of the short-range attractive part of interactions and the density diagram expansions for the description of the last two parts of interactions. Classification and reduction of the obtained diagrams in such expansions leads to the multidensity formalism, whose specificity strongly depends on types of described clusterization phenomena.

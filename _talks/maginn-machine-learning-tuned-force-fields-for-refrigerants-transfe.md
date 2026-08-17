@@ -12,16 +12,6 @@ email: ed@nd.edu
 abstract_source: Maginn-EMLG-JMLG-abstract.docx
 ---
 
-### Authors
-
-B. P. Agbodekhe, E. J. Maginn
-
-### Affiliations
-
-Department of Chemical and Biomolecular Engineering, University of Notre Dame, Notre Dame, IN 46556, USA  
-
-**Contact:** [ed@nd.edu](mailto:ed@nd.edu)
-
 ### Abstract
 
 Hydrofluorocarbon refrigerants used in heating, ventilation, air conditioning, and refrigeration (HVACR) systems have high global warming potential and are being phased out under the Kigali Amendment to the Montreal Protocol. Meeting this challenge requires both the discovery of low-GWP replacement mixtures and the reclamation of legacy refrigerants, the latter requiring separation of azeotropic and near-azeotropic mixtures. Because reliable experimental data for the relevant mixtures and conditions are scarce, molecular simulation is an indispensable predictive tool in this effort, but its fidelity rests on the accuracy and transferability of the underlying force fields (FFs). One promising approach optimizes the non-bonded (Lennard-Jones) parameters of an FF against experimental vapor-liquid equilibria (VLE) data via a machine-learning protocol, while retaining the bonded parameters and partial charges of a standard classical FF such as GAFF [1-3]. Two questions follow: do such VLE-tuned FFs transfer to properties and thermodynamic states absent from the tuning set, and do they extend to mixtures and interfaces?

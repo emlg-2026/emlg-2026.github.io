@@ -19,20 +19,6 @@ email: marco.paolantoni@unipg.it
 abstract_source: Paolantoni1.docx
 ---
 
-### Authors
-
-Marco Paolantoni<sup>1</sup>, Brenda Bracco<sup>1</sup>, Barbara Rossi<sup>2</sup>, Paola Sassi<sup>1</sup>, Andrea Mele<sup>3</sup>
-
-### Affiliations
-
-1. Department of Chemistry, Biology and Biotechnology, University of Perugia,  
-Via Elce di Sotto 8, 06123 Perugia, Italy  
-2. Elettra Sincrotrone Trieste, S.S. 114 km 163.5, Basovizza, 34149 Trieste, Italy  
-3. Department of Chemistry, Materials and Chemical Engineering “G. Natta”,  
-Politecnico di Milano, 20133 Milano, Italy  
-
-**Contact:** [marco.paolantoni@unipg.it](mailto:marco.paolantoni@unipg.it)
-
 ### Abstract
 
 Mixtures of water with ionic liquids (ILs) represent promising, tunable systems with potential applications in various areas, ranging from green chemistry to biocatalysis, biopreservation, and energy-related applications [1].

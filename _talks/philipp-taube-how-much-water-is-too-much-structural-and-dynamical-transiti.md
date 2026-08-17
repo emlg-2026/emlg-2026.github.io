@@ -14,16 +14,6 @@ email: jule.philipp@uni-rostock.de
 abstract_source: Philipp_Taube1.docx
 ---
 
-### Authors
-
-J. K. Philipp-Taube<sup>1</sup>, A. Strate<sup>1</sup>, D. Paschek<sup>1</sup>, R. Ludwig<sup>1</sup>
-
-### Affiliations
-
-1. University of Rostock, Albert-Einstein-Str. 27, 18059 Rostock, Germany  
-
-**Contact:** [jule.philipp@uni-rostock.de](mailto:jule.philipp@uni-rostock.de)
-
 ### Abstract
 
 The controlled dilution of highly coordinated electrolyte systems with molecular solvents offers a promising route to tune transport and stability properties in advanced energy materials.[1] Here, we investigate the structural and dynamical evolution of solvate ionic liquid (SIL) electrolytes upon gradual water addition, with particular focus on the transition from a coordination-driven system, the water-in-solvate-ionic-liquid (WISIL) regime, to its breakdown at higher water contents.

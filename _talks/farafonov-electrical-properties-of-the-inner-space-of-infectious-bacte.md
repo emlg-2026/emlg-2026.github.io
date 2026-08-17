@@ -20,19 +20,6 @@ email: d.nerukh@aston.ac.uk
 abstract_source: Farafonov1.docx
 ---
 
-### Authors
-
-N. Vodolazkaya<sup>1</sup>, I. Budzanivska<sup>2</sup>, V. Farafonov<sup>1,3</sup>, O. Bondarenko<sup>2</sup>, V. Bardyk<sup>4</sup>, M. Bakumenko<sup>3,4</sup>, D. Nerukh<sup>3</sup>
-
-### Affiliations
-
-1. Department of Physical Chemistry and Materials Science, V.N. Karazin Kharkiv National University, Svoboda Sq. 4, Kharkiv, 61022, Ukraine  
-2. Virology Department, ESC ‘Institute of Biology and Medicine’, Taras Shevchenko National University of Kyiv, 64/13, Volodymyrska Str., Kyiv, 01601, Ukraine  
-3. Department of Mathematics, Aston University, Birmingham, B4 7ET, UK  
-4. Molecular Physics Department, Taras Shevchenko National University of Kyiv, 64/13, Volodymyrska Str., Kyiv, 01601, Ukraine  
-
-**Contact:** [d.nerukh@aston.ac.uk](mailto:d.nerukh@aston.ac.uk)
-
 ### Abstract
 
 Using protein complexes as a basis for developing nanoscale materials has drawn increasing interest. In this sense, viral capsids attract particular attention as they provide robust monodisperse structures of varying sizes and shapes. The interior of these particles has been utilized as a template for the synthesis of metal oxide particles in inorganic materials, as the basis of the self-assembling system for recognition and ordering nanocrystals. The structure of virus capsids was adapted as a biological template for the nucleation and orientation of semiconductor nanowires and composites and building blocks for 2D and 3D materials.

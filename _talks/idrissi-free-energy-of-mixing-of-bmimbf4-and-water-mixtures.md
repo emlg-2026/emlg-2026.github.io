@@ -19,19 +19,6 @@ email: nacer.idrissi@univ-lille.fr
 abstract_source: Idrissi1.docx
 ---
 
-### Authors
-
-A. Shagurin<sup>1</sup><sup>,2</sup>, Patrik Musil<sup>3</sup> Natalia T. Correia<sup>2</sup>, Frederic Affouard<sup>2</sup>, Milan Předota<sup>3</sup>, Pál Jedlovszky<sup>4</sup>, Abdenacer Idrissi<sup>1</sup>
-
-### Affiliations
-
-1. University of Lille, CNRS UMR 8516 -LASIRe - Laboratoire Avancé de Spectroscopie pour les Interactions la Réactivité et l'environnement, 59000 Lille, France  
-2. Univ. Lille, CNRS, INRAE, Centrale Lille, UMR 8207 - UMET - Unité Matériaux et Transformations, F-59000 Lille, France  
-3. University of South Bohemia, Department of Physics, Faculty of Science,Ceske Budejovice, Czech Republic  
-4. Department of Chemistry, Eszterházy Károly Catholic University, Eger, Hungary  
-
-**Contact:** [nacer.idrissi@univ-lille.fr](mailto:nacer.idrissi@univ-lille.fr)
-
 ### Abstract
 
 A central difficulty in simulating BmimBF4/water mixtures is that force fields validated separately for the pure ionic liquid and pure water do not necessarily remain thermodynamically consistent when combined. The predicted miscibility may depend strongly on the water model, ionic-liquid parameters, cross-interactions, and charge treatment. For this reason, the free energy of mixing is a more stringent validation criterion than density or transport properties alone, because it directly probes whether the model predicts a thermodynamic tendency toward mixing or demixing.1

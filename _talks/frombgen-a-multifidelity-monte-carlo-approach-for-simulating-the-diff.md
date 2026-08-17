@@ -15,17 +15,6 @@ email: tomfroe@uni-bonn.de
 abstract_source: Frömbgen1.docx
 ---
 
-### Authors
-
-T. Frömbgen<sup>1</sup>, A. Kuhn<sup>2</sup>, J. Dölz<sup>2</sup>, B. Kirchner<sup>1</sup>
-
-### Affiliations
-
-1. Mulliken Center for Theoretical Chemistry, University of Bonn, Beringstraße 4, 53115 Bonn, Germany  
-2. Institute for Numerical Simulation, University of Bonn, Friedrich-Hirzebruch-Allee 7, 53115 Bonn, Germany  
-
-**Contact:** [tomfroe@uni-bonn.de](mailto:tomfroe@uni-bonn.de)
-
 ### Abstract
 
 Self-diffusion coefficients computed from molecular dynamics simulations are known to suffer from systematic finite-size effects. To mitigate this dependence, additive correction terms have been proposed. [1,2] More recently, the OrthoBoXY approach [3] introduced tetragonal simulation boxes with specific aspect ratios for which the correction term vanishes.

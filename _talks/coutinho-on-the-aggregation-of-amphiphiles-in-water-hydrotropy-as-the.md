@@ -12,16 +12,6 @@ email: jcoutinho@ua.pt
 abstract_source: EMLG_JMLG_2026_JCoutinho.docx
 ---
 
-### Authors
-
-Dinis O. Abranches<sup>1</sup>, João A. P. Coutinho<sup>1</sup>
-
-### Affiliations
-
-1. CICECO – Aveiro Institute of Materials, Department of Chemistry, University of Aveiro, 3810-193, Aveiro, Portugal  
-
-**Contact:** [jcoutinho@ua.pt](mailto:jcoutinho@ua.pt)
-
 ### Abstract
 
 Hydrotropes and surfactants are commonly employed to enhance the aqueous solubility of hydrophobic compounds, and they are traditionally regarded as distinct classes based on the assumption that surfactants solubilize via micelle formation whereas hydrotropes do not. In the first part of this communication this distinction is critically examined by systematically investigating the solubilization of carbamazepine in aqueous solutions of two homologous families: sodium sulfates and sodium sulfonates, spanning species from inorganic salts to classical surfactants. Across these families, solubility enhancement increases monotonically with the apolar volume of the anion,[1] as shown in Figure 1, with densely charged ions inducing salting-out and amphiphilic compounds promoting salting-in. Analysis of the dilute concentration regime using Setschenow constants reveals a continuous trend encompassing hydrotropes and surfactants, with no separation between them.

@@ -14,17 +14,6 @@ email: maki@kobe-u.ac.jp
 abstract_source: Maki_231.docx
 ---
 
-### Authors
-
-H. Maki<sup>1</sup>, R. Matsuda<sup>2</sup>, Y. KOH<sup>1</sup>
-
-### Affiliations
-
-1. Graduate School of Engineering, Kobe University, 1-1 Rokkodai-cho, Nada-ku, Kobe, Japan  
-2. Faculty of Engineering, Kobe University, 1-1 Rokkodai-cho, Nada-ku, Kobe, Japan  
-
-**Contact:** [maki@kobe-u.ac.jp](mailto:maki@kobe-u.ac.jp)
-
 ### Abstract
 
 The formation behavior of various ion pairs in high-concentration electrolyte aqueous solutions was analyzed using quantitative 1H NMR for water molecule and multinuclear NMR for ions. While the signal intensity of multinuclear NMR showed a linear relationship with electrolyte concentration, the quantitative 1H NMR showed a significantly lower signal intensity than expected due to the reduced physical properties of the solution resulting from the low mobility of water molecules in the hydration structure, and the decrease in the activity of water molecules due to reduced mobility. Furthermore, it was confirmed that the undetectable amount of water by quantitative 1H NMR tended to decrease due to the release of hydrated water into free water as a result of the destabilization of the ionic hydration structure by ion pair formation. The electrolyte concentration dependence of the chemical shifts of 1H NMR and multinuclear NMR, and the undetectable amount of water by quantitative 1H NMR, both changed characteristically at the electrolyte concentrations at which SSIP and CIP formation began.

@@ -19,20 +19,6 @@ email: knis@meijo-u.ac.jp
 abstract_source: Nishiyama1.docx
 ---
 
-### Authors
-
-Katsura Nishiyama,<sup>1</sup> Kensuke Okamoto,<sup>2</sup> Nattasamon Petchsang,<sup>3</sup> Rio Kita,<sup>4</sup> Yukiteru Katsumoto<sup>5</sup>
-
-### Affiliations
-
-1. Department of Environmental Technology, Meijo University, Nagoya, 468–8502, Japan  
-2. Division of Environmental Technology, Meijo University, Nagoya, 468–8502, Japan  
-3. Department of Materials Science,Faculty of Science, Kasetsart University, Bangkok 10900, Thailand  
-4. Department of Physics, Tokai University, Kanagawa 259–1292, Japan  
-5. Department of Chemistry, Faculty of Science, Fukuoka University, Fukuoka 814–0180, Japan  
-
-**Contact:** [knis@meijo-u.ac.jp](mailto:knis@meijo-u.ac.jp)
-
 ### Abstract
 
 Soft supramolecular materials often exhibit hierarchical organization accompanied by collective fluctuations over broad spatial and temporal scales. In this study, we investigate how solvent-dependent self-assembly governs acoustic energy dissipation in phenol–AOT organogels [1]. Fig. 1 illustrates the present concept schematically.

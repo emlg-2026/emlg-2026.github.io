@@ -11,16 +11,6 @@ email: paola.carbone@manchester.ac.uk
 abstract_source: Carbone1.docx
 ---
 
-### Authors
-
-P. Carbone<sup>1</sup>
-
-### Affiliations
-
-1. Department of Chemistry, University of Manchester, Oxford Road, M13 9PL, Manchester (U.K.)  
-
-**Contact:** [paola.carbone@manchester.ac.uk](mailto:paola.carbone@manchester.ac.uk)
-
 ### Abstract
 
 The physical-chemistry of the graphene/aqueous–electrolyte interface underpins the operational conditions of a wide range of devices. Despite its importance, this interface is poorly understood due to the challenges faced in its experimental characterization and the difficulty of developing models that encompass its full physics. [1]

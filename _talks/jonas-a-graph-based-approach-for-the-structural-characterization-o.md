@@ -19,17 +19,6 @@ email: kdrysch@uni-bonn.de
 abstract_source: Jonas1.docx
 ---
 
-### Authors
-
-K. Jonas (née Drysch)<sup>1</sup>, Y. Dawer<sup>1</sup>, P. Zaby<sup>1</sup>, K. Buchmüller<sup>1</sup>, L. Dick<sup>1</sup>, B. Szabó<sup>2</sup>, O. Hollóczki<sup>2</sup>, B. Kirchner<sup>1</sup>
-
-### Affiliations
-
-1. Mulliken Center for Theoretical Chemistry, University of Bonn, Beringstraße 4, 53115 Bonn, Germany  
-2. Department of Physical Chemistry, Faculty of Science and Technology, University of Debrecen, H-4032 Debrecen, Hungary  
-
-**Contact:** [kdrysch@uni-bonn.de](mailto:kdrysch@uni-bonn.de)
-
 ### Abstract
 
 The use of molecular dynamics (MD) simulations to gain molecular-level insights into macromolecular interactions with environmental and physiological systems has become increasingly important. Yet, efforts have remained focused on naturally occurring biomolecules that rely on known monomer motifs. This has raised the need for robust, generalised tools to study chemically relevant macromolecular systems.

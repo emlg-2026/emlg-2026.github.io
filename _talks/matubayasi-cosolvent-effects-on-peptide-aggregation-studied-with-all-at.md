@@ -11,16 +11,6 @@ email: nobuyuki@cheng.es.osaka-u.ac.jp
 abstract_source: Abstract_Matubayasi.docx
 ---
 
-### Authors
-
-Nobuyuki Matubayasi
-
-### Affiliations
-
-Graduate School of Engineering Science, Osaka University, Osaka 560-8531 Japan  
-
-**Contact:** [nobuyuki@cheng.es.osaka-u.ac.jp](mailto:nobuyuki@cheng.es.osaka-u.ac.jp)
-
 ### Abstract
 
 Solvent affects strongly the structures of biomolecules. The aggregation state of a biomolecule can then be modulated by the solvent environment, and indeed, it is considered that cosolvents act to regulate the structures and aggregation tendencies of proteins in biological systems. This work addresses the molecular mechanism of the effects of ATP (adenosine triphosphate) on peptide aggregation from the energetic standpoint by combining all-atom MD simulation and a solvation theory [1,2]. ATP is present in cells at concentrations much higher than required for its biological reactions as the energy source, and it has been shown experimentally that ATP acts as a cosolvent to inhibit the aggregation of proteins and peptides [3]. The aggregation core of amyloid b was employed as a model peptide, and the changes in the equilibria between the dissociated and aggregate states of the peptide induced by addition of ATP as a cosolvent was examined in comparison to the case of urea cosolvent.

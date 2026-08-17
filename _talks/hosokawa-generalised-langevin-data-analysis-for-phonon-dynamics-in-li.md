@@ -11,16 +11,6 @@ email: s_hosokawa@mat.shimane-u.ac.jp
 abstract_source: Hosokawa1.docx
 ---
 
-### Authors
-
-in Liquid Water Shinya Hosokawa<sup>1</sup>
-
-### Affiliations
-
-1. Faculty of Materials for Energy, Shimane University, Matsue 690-8504, Japan  
-
-**Contact:** [s_hosokawa@mat.shimane-u.ac.jp](mailto:s_hosokawa@mat.shimane-u.ac.jp)
-
 ### Abstract
 
 To investigate the phonon dynamics on molecular liquids with different intermolecular interactions, we have carried out a series of inelastic x-ray scattering (IXS) experiments at BL35XU [1] of the SPring-8, such as acetone with dipole interaction [2], CCl4 with van der Waals one [3], and benzene with - stacking one [4]. The obtained spectra were analysed using a generalised Langevin formalism (GLF) with a memory function including thermal and two viscoelastic damping factors [5]. The fast sound was observed in any of molecular liquids [2-4] of about 50% beyond the corresponding hydrodynamic value, independent of the types of intermolecular interactions. However, we found that the viscoelastic relaxation times well coincide with the vibrational or rotational relaxation times obtained by Raman scattering and infrared spectra. Accordingly, we concluded that the terahertz sounds observed by IXS require extra energies of these excitations for the propagations. Then, we recall liquid water with hydrogen bonding intermolecular interaction. As is well-known, liquid water has the fastest terahertz sound velocity of about 110% [6] among molecular liquids. We used our experimental IXS data shown in Fig. 1(a) [7] for the GLF analysis, and the solid curves indicate the best GLF fits, from which the fast sound in good agreement with the previous result [6] was obtained. Figure 1(b) shows the Q dependence of slow (circles) and fast (triangles) viscoelastic relaxation times in the memory function obtained from the GLF analysis. In the presentation, we discuss the origin of the fast sound in liquid water by comparing these viscoelastic relaxation times in the memory function with Raman scattering and infrared data showing the vibrational and rotational relaxation times in water molecules. Moreover, we will encompass these analyses to the supercritical fluid water state.

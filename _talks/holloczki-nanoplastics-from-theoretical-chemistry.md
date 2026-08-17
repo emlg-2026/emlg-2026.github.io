@@ -13,16 +13,6 @@ email: holloczki.oldamur@science.unideb.hu
 abstract_source: Hollóczki.docx
 ---
 
-### Authors
-
-Boglárka Szabó, Maxim Varenicja, Oldamur Hollóczki
-
-### Affiliations
-
-Department of Physical Chemistry, Faculty of Science and Technology, University of Debrecen, Egyetem tér 1, 4032 Debrecen, Hungary  
-
-**Contact:** [holloczki.oldamur@science.unideb.hu](mailto:holloczki.oldamur@science.unideb.hu)
-
 ### Abstract
 
 Nanoplastic particles are at least two orders of magnitude smaller than eukaryotic cells, and therefore their environmental and health effects are likely to stem from their molecular level interplay with living organisms. The underlying interactions with biomolecular systems are, however, difficult to characterize experimentally, due to the complexity of polymer systems and the biological matrix they are embedded in. To overcome these obstacles, we employed molecular modeling, which helped us understanding the changes nanoplastics induce in the molecular structure of biomolecules in solution.

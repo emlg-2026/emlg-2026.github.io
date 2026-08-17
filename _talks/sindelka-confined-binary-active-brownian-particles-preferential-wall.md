@@ -13,17 +13,6 @@ email: sindelka@icpf.cas.cz
 abstract_source: Sindelka1.docx
 ---
 
-### Authors
-
-K. Šindelka<sup>1</sup>, M. Lísal<sup>1,2</sup>
-
-### Affiliations
-
-1. Institute of Chemical Process Fundamentals, Czech Academy of Sciences, Prague, Czech Republic  
-2. Department of Physics, Faculty of Science, Jan Evangelista Purkyně University, Ústí nad Labem, Czech Republic  
-
-**Contact:** [sindelka@icpf.cas.cz](mailto:sindelka@icpf.cas.cz)
-
 ### Abstract
 
 Active Brownian particles (ABPs) serve as a generic model for synthetic active matter systems such as active colloids which can self-propel while undergoing Brownian motion. Under confinement, ABPs exhibit propulsion-induced wall accumulation [1], a fundamentally non-equilibrium behaviour with potential for practical applications such as microfluidics or lab-on-chip devices. In multi-component systems, the wall accumulation is further influenced by differences in particle activities which introduce demixing and spatial heterogeneity.

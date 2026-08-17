@@ -12,16 +12,6 @@ email: shirota@faculty.chiba-u.jp
 abstract_source: Shirota1.docx
 ---
 
-### Authors
-
-M. Koyakkat<sup>1</sup>, H. Shirota<sup>1</sup>
-
-### Affiliations
-
-1. 1-33 Yayoi, Inage-ku, Chiba 263-8522, Department of Chemistry, Chiba University  
-
-**Contact:** [shirota@faculty.chiba-u.jp](mailto:shirota@faculty.chiba-u.jp)
-
 ### Abstract
 
 The eutectic phenomena are recognized in our surroundings, such as solder and anti-icing agents. When a mixture composed of more than two components shows a huge reduction in melting point compared to the neat components and it becomes the liquid state at ambient temperatures, it is referred to as a deep eutectic solvent (DES). The great advantages of DES include its easy preparation, often just mixing (or sometimes with mild heat), and environmentally friendly nature, when the components are appropriately selected. DES is thus getting more attention recently [1,2].

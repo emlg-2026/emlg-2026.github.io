@@ -11,16 +11,6 @@ email: martin.sweatman@ed.ac.uk
 abstract_source: Sweatman1.docx
 ---
 
-### Authors
-
-Martin B. Sweatman
-
-### Affiliations
-
-School of Engineering, University of Edinburgh, Mayfield Road, Edinburgh, EH9 3FB.  
-
-**Contact:** [martin.sweatman@ed.ac.uk](mailto:martin.sweatman@ed.ac.uk)
-
 ### Abstract
 
 Fluids with short-ranged attractive (SA) interactions and long-ranged repulsive (LR) interactions, often called SALR fluids, are known to form clusters of particles at low concentrations for suitable combinations of SALR parameters. These clusters can appear to behave like a stable dispersion of liquid-like droplets. SALR fluids are, therefore, often considered a reasonable model for some biological molecules, such as proteins, and other large molecules that are also known to form large stable clusters in solution.

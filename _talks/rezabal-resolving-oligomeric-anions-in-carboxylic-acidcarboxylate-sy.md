@@ -12,17 +12,6 @@ email: elixabete.rezabal@ehu.eus
 abstract_source: Rezabal_1.docx
 ---
 
-### Authors
-
-E.Rezabal <sup>2</sup>
-
-### Affiliations
-
-1. Kimika Fakultatea, University of the Basque Country (EHU/UPV) 20018 Donostia, Spain  
-2. Donostia International Physics Center, 20018 Donostia, Spain  
-
-**Contact:** [elixabete.rezabal@ehu.eus](mailto:elixabete.rezabal@ehu.eus)
-
 ### Abstract
 
 Carboxylic acid/carboxylate mixtures in ionic liquids are frequently proposed to form oligomeric anionic species stabilized by hydrogen bonding, although the protonation state within these aggregates—ranging from localized to dynamically exchanging or symmetrically shared protons—often remains difficult to determine experimentally. One prominent example is choline–geranic acid at a 1:2 ratio (CAGE12), which has attracted considerable attention due to its outstanding therapeutic performance in drug delivery and drug activation, particularly in transdermal and anticancer applications [1,2]. In this system, NMR observations [3] indicating proton mobility have led to suggestions that oligomeric anionic motifs may be present; however, whether these correspond to long-lived complex anions or to dynamically fluctuating acid–carboxylate pairs remains unresolved.
