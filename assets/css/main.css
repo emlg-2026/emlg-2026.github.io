@@ -4,7 +4,9 @@
 
 .program-table {
   width: 100% !important;
-  max-width: 100% !important;
+  max-width: 1100px;
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
 
 .program-table .program-space {
@@ -12,10 +14,18 @@
 }
 
 .program-table .program-time {
+  width: 5rem;
+  min-width: 5rem;
   white-space: nowrap;
-  width: 4.5rem;
 }
 
 .program-table .program-talk {
   width: auto !important;
+  min-width: 0 !important;
+}
+
+@media (min-width: 992px) {
+  body:has(.program-table) main.container {
+    max-width: 1400px;
+  }
 }
