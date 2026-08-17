@@ -48,6 +48,8 @@ conference:
 
   talks:
     tracks:
+      - name: EMLG/JMLG School
+        color: secondary
       - name: Session 1
         color: success
       - name: Session 2
