@@ -164,3 +164,54 @@ header,
   }
 }
 
+/* Programme day selector as compact calendar strip */
+
+.nav-pills {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 0.35rem;
+  overflow-x: auto;
+  padding-bottom: 0.25rem;
+  margin-bottom: 1.5rem;
+  scrollbar-width: none;
+}
+
+.nav-pills::-webkit-scrollbar {
+  display: none;
+}
+
+.nav-pills .nav-link {
+  flex: 0 0 auto;
+  border-radius: 0.7rem;
+  padding: 0.45rem 0.8rem;
+  border: 1px solid var(--bs-border-color);
+  background: transparent;
+  color: var(--bs-body-color);
+  font-weight: 500;
+  line-height: 1.1;
+}
+
+.nav-pills .nav-link.active {
+  background: var(--bs-body-color);
+  color: var(--bs-body-bg);
+  border-color: var(--bs-body-color);
+}
+
+.nav-pills .nav-link:hover {
+  background: var(--bs-tertiary-bg);
+}
+
+@media (max-width: 768px) {
+  .nav-pills {
+    gap: 0.3rem;
+    margin-left: -0.25rem;
+    margin-right: -0.25rem;
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+  }
+
+  .nav-pills .nav-link {
+    font-size: 0.88rem;
+    padding: 0.4rem 0.65rem;
+  }
+}
