@@ -2,7 +2,6 @@
 name: Example EMLG 2026 Talk
 speakers:
   - Jane Example
-track: Example Session
 ---
 
 **Jane Example**  
