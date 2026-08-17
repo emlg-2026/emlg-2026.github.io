@@ -1,0 +1,57 @@
+title: EMLG 2026
+description: Programme and book of abstracts for EMLG 2026
+url: "https://emlg-2026.github.io"
+baseurl: ""
+
+remote_theme: "DigitaleGesellschaft/jekyll-theme-conference@v4.0.2"
+
+plugins:
+  - jekyll-include-cache
+
+collections:
+  talks:
+    output: true
+    permalink: /abstracts/:title/
+  speakers:
+    output: true
+    permalink: /speakers/:title/
+  rooms:
+    output: true
+    permalink: /rooms/:title/
+
+defaults:
+  - scope:
+      path: ""
+      type: talks
+    values:
+      layout: talk
+  - scope:
+      path: ""
+      type: speakers
+    values:
+      layout: speaker
+  - scope:
+      path: ""
+      type: rooms
+    values:
+      layout: room
+
+conference:
+  lang: en
+  tz: "+01:00"
+  show_errors: true
+
+  navigation:
+    links:
+      - name: Programme
+        icon: calendar4-week
+        relative_url: /program/
+      - name: Abstracts
+        icon: journal-text
+        relative_url: /talks/
+      - name: Speakers
+        icon: people
+        relative_url: /speakers/
+      - name: Abstract book PDF
+        icon: file-earmark-pdf
+        relative_url: /documents/EMLG2026-abstract-book.pdf

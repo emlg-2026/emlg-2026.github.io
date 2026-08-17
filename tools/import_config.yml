@@ -1,0 +1,27 @@
+# Style names used by the generic DOCX importer.
+# Change these to match the styles in the real Word abstract book.
+styles:
+  day:
+    - Day
+    - Heading 1
+  session:
+    - Session
+    - Heading 2
+  title:
+    - Abstract Title
+    - Heading 3
+  authors:
+    - Authors
+  affiliations:
+    - Affiliations
+  abstract:
+    - Abstract
+  time:
+    - Time
+  room:
+    - Room
+
+# Defaults used if the DOCX does not contain explicit timing/room metadata.
+defaults:
+  room: Main Auditorium
+  talk_minutes: 25

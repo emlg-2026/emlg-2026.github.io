@@ -1,0 +1,10 @@
+days:
+  - name: Day 1
+    abbr: D1
+    date: 2026-09-07
+    rooms:
+      - name: Main Auditorium
+        talks:
+          - name: Example EMLG 2026 Talk
+            time_start: "09:00"
+            time_end: "09:25"

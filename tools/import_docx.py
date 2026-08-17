@@ -1,0 +1,243 @@
+#!/usr/bin/env python3
+"""Import a consistently styled Word abstract book into jekyll-theme-conference.
+
+This is intentionally conservative: it uses Word paragraph styles rather than
+trying to guess formatting. Adapt tools/import_config.yml to the styles in the
+real abstract book before relying on it for production data.
+"""
+
+from __future__ import annotations
+
+import argparse
+import re
+from dataclasses import dataclass, field
+from datetime import datetime, timedelta
+from pathlib import Path
+
+import yaml
+from docx import Document
+
+
+@dataclass
+class Talk:
+    title: str = ""
+    authors: list[str] = field(default_factory=list)
+    affiliations: list[str] = field(default_factory=list)
+    abstract_paragraphs: list[str] = field(default_factory=list)
+    session: str = ""
+    day_name: str = "Day 1"
+    date: str = "2026-09-07"
+    time_start: str = ""
+    time_end: str = ""
+    room: str = "Main Auditorium"
+
+
+def slugify(text: str) -> str:
+    text = text.lower().strip()
+    text = re.sub(r"[^a-z0-9]+", "-", text)
+    return text.strip("-") or "item"
+
+
+def yaml_frontmatter(data: dict) -> str:
+    return "---\n" + yaml.safe_dump(data, sort_keys=False, allow_unicode=True).strip() + "\n---\n"
+
+
+def split_authors(text: str) -> list[str]:
+    text = re.sub(r"\s+and\s+", ";", text, flags=re.I)
+    parts = re.split(r"\s*;\s*|\s*,\s*(?=[A-Z][A-Za-z.' -]+(?:$|;))", text)
+    cleaned = []
+    for part in parts:
+        part = re.sub(r"[\u00b9\u00b2\u00b3\u2070-\u2079*]+$", "", part.strip())
+        if part:
+            cleaned.append(part)
+    return cleaned or [text.strip()]
+
+
+def name_parts(name: str) -> tuple[str, str]:
+    bits = name.split()
+    if len(bits) == 1:
+        return "", bits[0]
+    return " ".join(bits[:-1]), bits[-1]
+
+
+def load_config(path: Path) -> dict:
+    return yaml.safe_load(path.read_text(encoding="utf-8")) or {}
+
+
+def parse_docx(docx_path: Path, config: dict) -> list[Talk]:
+    styles = config.get("styles", {})
+    style_sets = {k: set(v or []) for k, v in styles.items()}
+    defaults = config.get("defaults", {})
+
+    doc = Document(docx_path)
+    talks: list[Talk] = []
+    current: Talk | None = None
+    current_day = "Day 1"
+    current_date = "2026-09-07"
+    current_session = ""
+    mode = None
+
+    for p in doc.paragraphs:
+        text = p.text.strip()
+        if not text:
+            continue
+        style = p.style.name if p.style else ""
+
+        if style in style_sets.get("day", set()):
+            current_day = text
+            # If a YYYY-MM-DD date occurs in the heading, use it.
+            m = re.search(r"(20\d{2}-\d{2}-\d{2})", text)
+            if m:
+                current_date = m.group(1)
+            mode = None
+            continue
+
+        if style in style_sets.get("session", set()):
+            current_session = text
+            mode = None
+            continue
+
+        if style in style_sets.get("title", set()):
+            if current and current.title:
+                talks.append(current)
+            current = Talk(
+                title=text,
+                session=current_session,
+                day_name=current_day,
+                date=current_date,
+                room=defaults.get("room", "Main Auditorium"),
+            )
+            mode = None
+            continue
+
+        if current is None:
+            continue
+
+        if style in style_sets.get("authors", set()):
+            current.authors = split_authors(text)
+            mode = "authors"
+        elif style in style_sets.get("affiliations", set()):
+            current.affiliations.append(text)
+            mode = "affiliations"
+        elif style in style_sets.get("abstract", set()):
+            current.abstract_paragraphs.append(text)
+            mode = "abstract"
+        elif style in style_sets.get("time", set()):
+            current.time_start = text
+            mode = None
+        elif style in style_sets.get("room", set()):
+            current.room = text
+            mode = None
+        elif mode == "abstract":
+            current.abstract_paragraphs.append(text)
+        elif mode == "affiliations":
+            current.affiliations.append(text)
+
+    if current and current.title:
+        talks.append(current)
+
+    return talks
+
+
+def fill_end_times(talks: list[Talk], minutes: int) -> None:
+    for talk in talks:
+        if talk.time_start and not talk.time_end:
+            try:
+                start = datetime.strptime(talk.time_start, "%H:%M")
+                talk.time_end = (start + timedelta(minutes=minutes)).strftime("%H:%M")
+            except ValueError:
+                pass
+
+
+def write_site(talks: list[Talk], root: Path, config: dict) -> None:
+    talks_dir = root / "_talks"
+    speakers_dir = root / "_speakers"
+    rooms_dir = root / "_rooms"
+    data_dir = root / "_data"
+    for d in (talks_dir, speakers_dir, rooms_dir, data_dir):
+        d.mkdir(parents=True, exist_ok=True)
+
+    # Remove only files previously generated by this importer.
+    for d in (talks_dir, speakers_dir, rooms_dir):
+        for f in d.glob("generated-*.md"):
+            f.unlink()
+
+    speakers: dict[str, str] = {}
+    rooms: set[str] = set()
+
+    for talk in talks:
+        if not talk.authors:
+            talk.authors = ["Presenting Author"]
+        presenter = talk.authors[0]
+        speakers[presenter] = presenter
+        rooms.add(talk.room)
+
+        front = {
+            "name": talk.title,
+            "speakers": [presenter],
+        }
+        if talk.session:
+            front["track"] = talk.session
+
+        body = []
+        body.append("**Authors:** " + ", ".join(talk.authors))
+        if talk.affiliations:
+            body.append("\n### Affiliations\n")
+            body.extend(talk.affiliations)
+        body.append("\n### Abstract\n")
+        body.extend(talk.abstract_paragraphs or ["Abstract text not detected. Please check the DOCX style mapping."])
+
+        out = talks_dir / f"generated-{slugify(talk.title)}.md"
+        out.write_text(yaml_frontmatter(front) + "\n\n".join(body) + "\n", encoding="utf-8")
+
+    for name in sorted(speakers):
+        first, last = name_parts(name)
+        front = {"name": name, "first_name": first, "last_name": last}
+        (speakers_dir / f"generated-{slugify(name)}.md").write_text(
+            yaml_frontmatter(front) + "\n", encoding="utf-8"
+        )
+
+    for room in sorted(rooms):
+        (rooms_dir / f"generated-{slugify(room)}.md").write_text(
+            yaml_frontmatter({"name": room}) + "\n", encoding="utf-8"
+        )
+
+    days: dict[tuple[str, str], dict[str, list[dict]]] = {}
+    for talk in talks:
+        key = (talk.day_name, talk.date)
+        days.setdefault(key, {}).setdefault(talk.room, []).append({
+            "name": talk.title,
+            "time_start": talk.time_start or "09:00",
+            "time_end": talk.time_end or "09:25",
+        })
+
+    program = {"days": []}
+    for (day_name, date), room_map in days.items():
+        day = {"name": day_name, "date": date, "rooms": []}
+        for room, items in room_map.items():
+            day["rooms"].append({"name": room, "talks": items})
+        program["days"].append(day)
+
+    (data_dir / "program.yml").write_text(
+        yaml.safe_dump(program, sort_keys=False, allow_unicode=True), encoding="utf-8"
+    )
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser()
+    parser.add_argument("docx", type=Path, help="Word abstract book (.docx)")
+    parser.add_argument("--root", type=Path, default=Path(__file__).resolve().parents[1])
+    parser.add_argument("--config", type=Path, default=Path(__file__).with_name("import_config.yml"))
+    args = parser.parse_args()
+
+    config = load_config(args.config)
+    talks = parse_docx(args.docx, config)
+    fill_end_times(talks, int(config.get("defaults", {}).get("talk_minutes", 25)))
+    if not talks:
+        raise SystemExit("No abstracts detected. Adjust tools/import_config.yml to match the DOCX styles.")
+    write_site(talks, args.root, config)
+    print(f"Imported {len(talks)} abstracts into {args.root}")
+
+
+if __name__ == "__main__":
+    main()
