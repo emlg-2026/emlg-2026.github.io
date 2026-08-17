@@ -1,10 +1,235 @@
 days:
-  - name: Day 1
-    abbr: D1
-    date: 2026-09-07
-    rooms:
-      - name: Main Auditorium
-        talks:
-          - name: Example EMLG 2026 Talk
-            time_start: "09:00"
-            time_end: "09:25"
+- name: Mon 31 August
+  abbr: Mon
+  date: '2026-08-31'
+  rooms:
+  - name: Main Auditorium
+    talks:
+    - name: Registration and Coffee
+      time_start: 09:00
+      time_end: '10:15'
+    - name: Opening Address
+      time_start: '10:15'
+      time_end: '10:50'
+    - name: Surfactant Assembly and Disassembly far from Equilibrium
+      time_start: '10:50'
+      time_end: '11:30'
+    - name: Computer simulations of complex self-assembly – and obstinate agglomeration
+      time_start: '11:30'
+      time_end: '11:50'
+    - name: Integral Equations and Density Functional Theory for the cluster fluid phase of fluids with competing interactions
+      time_start: '11:50'
+      time_end: '12:10'
+    - name: Comprehensive Theoretical Approaches to the Self-Assembly Process at the Molecular Level
+      time_start: '12:10'
+      time_end: '12:30'
+    - name: Lunch – TIC foyer
+      time_start: '12:30'
+      time_end: '13:50'
+    - name: 2D Network of PDMS and PEO-PPO-PEO at the air-water interface
+      time_start: '13:50'
+      time_end: '14:30'
+    - name: Structure and Single-Particle Dynamics at the Free Surface of Imidazolium-Based Ionic Liquids
+      time_start: '14:30'
+      time_end: '14:50'
+    - name: Flow-enhanced self-assembly of amyloid-β peptides studied by nonequilibrium molecular dynamics simulations
+      time_start: '14:50'
+      time_end: '15:10'
+    - name: Molecular Structure and Lipid Ordering at Vesicle–Gold Nanoparticle Interfaces Revealed by SEIRS Spectroscopy
+      time_start: '15:10'
+      time_end: '15:30'
+    - name: Coffee Break – TIC foyer
+      time_start: '15:30'
+      time_end: '16:00'
+    - name: A metastable phase of amorphous aggregates governs solution structure
+      time_start: '16:00'
+      time_end: '16:20'
+    - name: Protein sequestration into biomolecular condensates and hydration water
+      time_start: '16:20'
+      time_end: '16:40'
+    - name: 'Structure-Making Solvation of Ferulic Acid in Protic and Aprotic Solvents: Experiments, Molecular Simulations, and Perspectives on Viscosity'
+      time_start: '16:40'
+      time_end: '17:00'
+    - name: EMLG/JMLG Board Meeting
+      time_start: '17:00'
+      time_end: '18:00'
+    - name: Early-Career Networking Session
+      time_start: '17:00'
+      time_end: '18:00'
+    - name: Civic Reception (drinks and nibbles) – Glasgow City Chambers
+      time_start: '18:30'
+      time_end: '20:00'
+- name: Tue 1 September
+  abbr: Tue
+  date: '2026-09-01'
+  rooms:
+  - name: Main Auditorium
+    talks:
+    - name: 'Characterizing the electrolyte/graphene interface: an integrated approach with modelling and experiments'
+      time_start: 08:45
+      time_end: 09:35
+    - name: What can UV Resonance Raman tell us about molecular liquids? From solutions to self-assembly
+      time_start: 09:35
+      time_end: '10:25'
+    - name: Coffee Break – TIC foyer
+      time_start: '10:25'
+      time_end: '10:50'
+    - name: 'When Theory Meets Experiment: What Does it Take to Accurately Predict 1H NMR Dipolar Relaxation Rates in Neat Liquid Water from Theory?'
+      time_start: '10:50'
+      time_end: '11:10'
+    - name: Generalised Langevin Data Analysis for Phonon Dynamics in Liquid Water
+      time_start: '11:10'
+      time_end: '11:30'
+    - name: 'Structural transitions in liquid water at high temperatures and pressures: A molecular dynamics approach'
+      time_start: '11:30'
+      time_end: '11:50'
+    - name: 'OrthoBoXY: A Simpler Way to Compute True Self-Diffusion Coefficients and Viscosities from MD Simulations'
+      time_start: '11:50'
+      time_end: '12:10'
+    - name: A Multifidelity Monte Carlo Approach for Simulating the Diffusion Coefficient of Water
+      time_start: '12:10'
+      time_end: '12:30'
+    - name: Lunch – TIC foyer
+      time_start: '12:30'
+      time_end: '13:50'
+    - name: 'On the Aggregation of Amphiphiles in Water: Hydrotropy as the missing link between salts and surfactants'
+      time_start: '13:50'
+      time_end: '14:30'
+    - name: How Much Water Is Too Much? Structural and Dynamical Transitions in Solvate Ionic Liquid Electrolytes
+      time_start: '14:30'
+      time_end: '14:50'
+    - name: Stability and affinity of Plasmodium falciparum proteins in ionic liquids
+      time_start: '14:50'
+      time_end: '15:10'
+    - name: Relationship between ion pair formation in aqueous solutions and anomalous decrease in NMR signal intensity of solvent
+      time_start: '15:10'
+      time_end: '15:30'
+    - name: Structural and Spectroscopic Evidence of Hydrogen Bonded Anionic Wires in Protic Ionic Liquids
+      time_start: '15:30'
+      time_end: '15:50'
+    - name: Hierarchical Self-Assembly and Sound Attenuation in the Audible-Frequency Region in Phenol–AOT Organogels
+      time_start: '15:50'
+      time_end: '16:10'
+    - name: Coffee Break – TIC foyer
+      time_start: '16:10'
+      time_end: '17:00'
+    - name: 'Poster Session: TIC foyer'
+      time_start: '16:30'
+      time_end: '18:00'
+- name: Wed 2 September
+  abbr: Wed
+  date: '2026-09-02'
+  rooms:
+  - name: Main Auditorium
+    talks:
+    - name: Machine learning-based first-principles simulations of nanoconfined water
+      time_start: 08:45
+      time_end: 09:25
+    - name: LCST-type Phase Separation of Phosphonium-based Ionic Liquid-Water Mixed Solutions
+      time_start: 09:25
+      time_end: 09:45
+    - name: Free energy of mixing of BmimBF4 and water mixtures
+      time_start: 09:45
+      time_end: '10:05'
+    - name: 'Mixing, De-mixing and Molecular Aggregation in Aqueous Solutions: Molecular Dynamics Simulation and Graph Theoretical Analysis'
+      time_start: '10:05'
+      time_end: '10:25'
+    - name: Revisiting the State of Water in [BMIM][BF4] Aqueous Solutions
+      time_start: '10:25'
+      time_end: '10:45'
+    - name: Coffee Break – TIC foyer
+      time_start: '10:45'
+      time_end: '11:10'
+    - name: 'Resolving Oligomeric Anions in Carboxylic Acid–Carboxylate Systems: the case of Choline–Geranate'
+      time_start: '11:10'
+      time_end: '11:30'
+    - name: 'Intermolecular Vibrational Band of Deep Eutectic Solvents Composed of Lithium Salt and Amide: Composition Dependence'
+      time_start: '11:30'
+      time_end: '11:50'
+    - name: Harnessing machine learning for the design and structural classification of periodic mesoporous silica
+      time_start: '11:50'
+      time_end: '12:10'
+    - name: A Graph-based approach for the structural characterization of macromolecules and their interactions with the environment
+      time_start: '12:10'
+      time_end: '12:30'
+    - name: Nanoplastics from theoretical chemistry
+      time_start: '12:30'
+      time_end: '12:50'
+    - name: Lunch – TIC foyer
+      time_start: '12:50'
+      time_end: '13:50'
+    - name: Conference Excursion – New Lanark World Heritage Site
+      time_start: '14:00'
+      time_end: '18:00'
+    - name: 'Gala Dinner: House for an Art Lover'
+      time_start: '18:00'
+      time_end: '22:00'
+- name: Thu 3 September
+  abbr: Thu
+  date: '2026-09-03'
+  rooms:
+  - name: Main Auditorium
+    talks:
+    - name: 'Machine-learning-tuned force fields for refrigerants: transferability across thermophysical properties, state points, and liquid interfaces'
+      time_start: 08:45
+      time_end: 09:25
+    - name: AI-Enabled Discovery of Deep Eutectic Solvents and Their Chemical Space
+      time_start: 09:25
+      time_end: 09:45
+    - name: AI-Driven Discovery of Novel Low-Melting-Point Ionic Liquids
+      time_start: 09:45
+      time_end: '10:05'
+    - name: Predicting Partition Coefficients of Biomolecules in Aqueous Biphasic Systems
+      time_start: '10:05'
+      time_end: '10:25'
+    - name: The role of interfacial water in stabilizing biological membranes
+      time_start: '10:25'
+      time_end: '10:45'
+    - name: Coffee Break – TIC foyer
+      time_start: '10:45'
+      time_end: '11:10'
+    - name: 'Cation/anion and monovalent/divalent selectivity in negatively charged nanopores: reduced models versus experiments and molecular dynamics simulations'
+      time_start: '11:10'
+      time_end: '11:30'
+    - name: Toward large-scale coarse-grained dynamics simulations of gas diffusion aided by machine-learning in realistic systems
+      time_start: '11:30'
+      time_end: '11:50'
+    - name: Oxygen Diffusion in Water- and Ionomer-filled Carbon Mesopores
+      time_start: '11:50'
+      time_end: '12:10'
+    - name: Water self-dissociation in slit pores displays non-monotonic behavior as a function of water filling
+      time_start: '12:10'
+      time_end: '12:30'
+    - name: 'Confined Binary Active Brownian Particles: Preferential Wall Accumulation and Correspondence with Equilibrium Fluid Mixtures'
+      time_start: '12:30'
+      time_end: '12:50'
+    - name: Lunch – TIC foyer
+      time_start: '12:50'
+      time_end: '14:10'
+    - name: Cosolvent Effects on Peptide Aggregation Studied with All-Atom MD and a Solvation Theory
+      time_start: '14:10'
+      time_end: '14:50'
+    - name: Software development and application for material design based on the statistical mechanics theory of liquids
+      time_start: '14:50'
+      time_end: '15:10'
+    - name: Electrical properties of the inner space of infectious bacteriophage MS2
+      time_start: '15:10'
+      time_end: '15:30'
+    - name: Coarse-grained model to study the effects of electric fields on protein interactions
+      time_start: '15:30'
+      time_end: '15:50'
+    - name: Coffee Break – TIC foyer
+      time_start: '15:50'
+      time_end: '16:10'
+    - name: Tuning the water models to elucidate the effect of ATP to disordered proteins in high ATP concentration
+      time_start: '16:10'
+      time_end: '16:30'
+    - name: Application of the modern theory of associated fluids for the description of self-assembly phenomena of surfactant molecules. Solubilization of biomolecules in reverse micelles
+      time_start: '16:30'
+      time_end: '16:50'
+    - name: 'Deep Eutectic Solvents for Biocatalysis: Advanced Materials and Enzymatic Modulation'
+      time_start: '16:50'
+      time_end: '17:10'
+    - name: EMLG/JMLG General Assembly and Closing
+      time_start: '17:10'
+      time_end: '18:00'

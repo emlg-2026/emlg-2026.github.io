@@ -1,10 +1,11 @@
-# EMLG 2026 generated programme content
+# EMLG 2026 programme data
 
-This package contains:
+This archive contains `_data/program.yml` generated from the uploaded final programme.
 
-- `_talks/`: one Jekyll talk page per scheduled scientific presentation.
-- `_speakers/`: one speaker file per presenting speaker.
+Notes:
+- Talk `name:` values are intended to match the generated `_talks/*.md` front matter exactly.
+- Non-talk events (registration, coffee/lunch, meetings, excursion, gala dinner, poster session) are included as programme entries.
+- The two EMLG/JMLG School talks are included on Tuesday morning and remain outside Sessions 1–11.
+- Session/track assignment lives in the individual `_talks/*.md` files, not in `program.yml`.
 
-The talk `name` fields reproduce the programme titles and the `speakers` fields reproduce the presenting speaker names. Talks in numbered sessions carry `track: "Session N"`. The two EMLG/JMLG School talks are intentionally left without a numbered track because the programme does not assign them to Session 1-11.
-
-Copy these directories into the root of `emlg-2026.github.io`, replacing the example placeholder files. The timetable entries in `_data/program.yml` must use exactly the same `name` strings as the talk files for the programme blocks to link to the extended talk/abstract pages.
+Copy `_data/program.yml` into the root of your `emlg-2026.github.io` repository, replacing the placeholder programme file.
