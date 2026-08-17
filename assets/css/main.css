@@ -1,3 +1,12 @@
+@media (max-width: 768px) {
+  .program-table .program-time {
+    width: 2.8rem !important;
+    min-width: 2.8rem !important;
+    padding-left: 0.15rem !important;
+    padding-right: 0.25rem !important;
+    white-space: nowrap;
+  }
+}
 .program-table-container {
   overflow-x: visible !important;
 }
