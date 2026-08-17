@@ -43,6 +43,8 @@ conference:
 
   talks:
     tracks:
+      - name: Social / Other
+        color: secondary
       - name: EMLG/JMLG School
         color: secondary
       - name: Session 1
