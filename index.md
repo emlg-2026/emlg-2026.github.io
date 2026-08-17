@@ -9,6 +9,7 @@ links:
     relative_url: /speakers/
 ---
 
-Welcome to the online programme and book of abstracts for **EMLG 2026**.
+Welcome to the online programme and book of abstracts for **EMLG/JMLG 2026**.
 
-Replace this text with the conference dates, venue, welcome text, and any practical information you want on the landing page.
+Here you can go to <a "the official webpage of the conference" href="https://www.strath.ac.uk/engineering/chemicalprocessengineering/emlgjmlg2026/">
+
