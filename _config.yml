@@ -41,11 +41,6 @@ conference:
   tz: "+01:00"
   show_errors: true
 
-conference:
-  lang: en
-  tz: "+01:00"
-  show_errors: true
-
   talks:
     tracks:
       - name: EMLG/JMLG School
