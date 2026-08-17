@@ -66,10 +66,10 @@ days:
   - name: Main Auditorium
     talks:
     - name: 'Characterizing the electrolyte/graphene interface: an integrated approach with modelling and experiments'
-      time_start: 08:45
-      time_end: 09:35
+      time_start: '08:45'
+      time_end: '09:35'
     - name: What can UV Resonance Raman tell us about molecular liquids? From solutions to self-assembly
-      time_start: 09:35
+      time_start: '09:35'
       time_end: '10:25'
     - name: Coffee Break – TIC foyer
       time_start: '10:25'
@@ -123,13 +123,13 @@ days:
   - name: Main Auditorium
     talks:
     - name: Machine learning-based first-principles simulations of nanoconfined water
-      time_start: 08:45
-      time_end: 09:25
+      time_start: '08:45'
+      time_end: '09:25'
     - name: LCST-type Phase Separation of Phosphonium-based Ionic Liquid-Water Mixed Solutions
-      time_start: 09:25
-      time_end: 09:45
+      time_start: '09:25'
+      time_end: '09:45'
     - name: Free energy of mixing of BmimBF4 and water mixtures
-      time_start: 09:45
+      time_start: '09:45'
       time_end: '10:05'
     - name: 'Mixing, De-mixing and Molecular Aggregation in Aqueous Solutions: Molecular Dynamics Simulation and Graph Theoretical Analysis'
       time_start: '10:05'
@@ -171,13 +171,13 @@ days:
   - name: Main Auditorium
     talks:
     - name: 'Machine-learning-tuned force fields for refrigerants: transferability across thermophysical properties, state points, and liquid interfaces'
-      time_start: 08:45
-      time_end: 09:25
+      time_start: '08:45'
+      time_end: '09:25'
     - name: AI-Enabled Discovery of Deep Eutectic Solvents and Their Chemical Space
-      time_start: 09:25
-      time_end: 09:45
+      time_start: '09:25'
+      time_end: '09:45'
     - name: AI-Driven Discovery of Novel Low-Melting-Point Ionic Liquids
-      time_start: 09:45
+      time_start: '09:45'
       time_end: '10:05'
     - name: Predicting Partition Coefficients of Biomolecules in Aqueous Biphasic Systems
       time_start: '10:05'
