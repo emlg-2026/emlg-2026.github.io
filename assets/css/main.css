@@ -114,117 +114,42 @@
 /* -------------------------------------------------
    Talk / abstract pages
    ------------------------------------------------- */
-
 .talk-hero {
   margin-top: 0.5rem;
-  margin-bottom: 2.75rem;
-  padding: 2.75rem 0 2.25rem;
+  margin-bottom: 2.5rem;
+  padding: 2rem 0 1.5rem;
 }
 
 .talk-hero h1 {
-  font-size: clamp(2.5rem, 7vw, 4.8rem);
-  line-height: 1.03;
-  font-weight: 700;
-  letter-spacing: -0.035em;
-  margin: 1.25rem 0 1.5rem;
-}
-
-.talk-hero-meta {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 0.5rem;
-}
-
-.talk-track,
-.talk-tag {
-  display: inline-block;
-  padding: 0.35rem 0.7rem;
-  font-size: 0.95rem;
+  font-family: inherit;
+  font-size: clamp(2rem, 5vw, 3.2rem);
+  line-height: 1.1;
+  font-weight: 600;
+  letter-spacing: -0.015em;
+  margin: 1rem 0 1.25rem;
 }
 
 .talk-speakers {
-  font-size: 1.4rem;
-  font-weight: 300;
-  margin-bottom: 1.5rem;
+  font-family: inherit;
+  font-size: 1.15rem;
+  font-weight: 400;
+  margin-bottom: 1.25rem;
 }
 
+.talk-track,
+.talk-tag,
 .talk-program-info {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
+  font-family: inherit;
 }
-
-.talk-program-info .badge,
-.talk-program-info .btn {
-  border-radius: 999px;
-}
-
-
-/* Main abstract text */
-
-.talk-content {
-  max-width: 850px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.talk-content h2,
-.talk-content h3 {
-  margin-top: 2.5rem;
-  margin-bottom: 1rem;
-  font-weight: 700;
-  letter-spacing: -0.015em;
-}
-
-.talk-content p,
-.talk-content li {
-  font-size: 1.1rem;
-  line-height: 1.7;
-}
-
-
-/* Figures */
-
-.talk-content img {
-  display: block;
-  width: auto;
-  max-width: 100%;
-  height: auto;
-  margin: 2rem auto;
-}
-
-
-/* Links / bottom navigation */
-
-.talk-links,
-.talk-more-information,
-.talk-navigation {
-  max-width: 850px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-
-/* Mobile */
 
 @media (max-width: 768px) {
-  .talk-hero {
-    padding-top: 1.75rem;
-    padding-bottom: 1.5rem;
-  }
-
   .talk-hero h1 {
-    font-size: clamp(2.2rem, 11vw, 3.5rem);
+    font-size: 2rem;
+    line-height: 1.15;
   }
 
   .talk-speakers {
-    font-size: 1.2rem;
-  }
-
-  .talk-content p,
-  .talk-content li {
-    font-size: 1rem;
-    line-height: 1.65;
+    font-size: 1.05rem;
   }
 }
+

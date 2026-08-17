@@ -54,6 +54,31 @@
 
   </section>
 
+
+{% if talk.authors %}
+  <div class="abstract-byline">
+
+    <div class="abstract-authors">
+      {{ talk.authors | join: ", " }}
+    </div>
+
+    {% if talk.affiliations %}
+      <div class="abstract-affiliations">
+        {% for affiliation in talk.affiliations %}
+          <div>{{ affiliation }}</div>
+        {% endfor %}
+      </div>
+    {% endif %}
+
+    {% if talk.email %}
+      <div class="abstract-email">
+        <a href="mailto:{{ talk.email }}">{{ talk.email }}</a>
+      </div>
+    {% endif %}
+
+  </div>
+{% endif %}
+
   <article class="talk-content">
     {{ content }}
   </article>
