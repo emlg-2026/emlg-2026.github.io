@@ -47,16 +47,16 @@ days:
     - name: Protein sequestration into biomolecular condensates and hydration water
       time_start: '16:20'
       time_end: '16:40'
-    - name: 'Structure-Making Solvation of Ferulic Acid in Protic and Aprotic Solvents: Experiments, Molecular Simulations, and Perspectives on Viscosity'
+    - name: "Structure-Making Solvation of Ferulic Acid in Protic and Aprotic Solvents: Experiments, Molecular Simulations, and Perspectives on Viscosity"
       time_start: '16:40'
       time_end: '17:00'
-    - name: EMLG/JMLG Board Meeting
+    - name: "EMLG/JMLG Board Meeting"
       time_start: '17:00'
       time_end: '18:00'
     - name: Early-Career Networking Session
       time_start: '17:00'
       time_end: '18:00'
-    - name: Civic Reception (drinks and nibbles) – Glasgow City Chambers
+    - name: "Civic Reception (drinks and nibbles) – Glasgow City Chambers"
       time_start: '18:30'
       time_end: '20:00'
 - name: Tue 1 September
@@ -113,7 +113,7 @@ days:
     - name: Coffee Break – TIC foyer
       time_start: '16:10'
       time_end: '17:00'
-    - name: 'Poster Session: TIC foyer'
+    - name: Poster Session: TIC foyer
       time_start: '16:30'
       time_end: '18:00'
 - name: Wed 2 September
