@@ -3,7 +3,7 @@ days:
   abbr: Mon
   date: '2026-08-31'
   rooms:
-  - name: Main Auditorium
+  - name: ""
     talks:
     - name: Registration and Coffee
       time_start: '09:00'
@@ -63,7 +63,7 @@ days:
   abbr: Tue
   date: '2026-09-01'
   rooms:
-  - name: Main Auditorium
+  - name: ""
     talks:
     - name: 'Characterizing the electrolyte/graphene interface: an integrated approach with modelling and experiments'
       time_start: '08:45'
@@ -120,7 +120,7 @@ days:
   abbr: Wed
   date: '2026-09-02'
   rooms:
-  - name: Main Auditorium
+  - name: ""
     talks:
     - name: Machine learning-based first-principles simulations of nanoconfined water
       time_start: '08:45'
@@ -168,7 +168,7 @@ days:
   abbr: Thu
   date: '2026-09-03'
   rooms:
-  - name: Main Auditorium
+  - name: ""
     talks:
     - name: 'Machine-learning-tuned force fields for refrigerants: transferability across thermophysical properties, state points, and liquid interfaces'
       time_start: '08:45'
