@@ -3,6 +3,7 @@ name: 'On the Aggregation of Amphiphiles in Water: Hydrotropy as the missing lin
 speakers:
 - João Coutinho
 track: Session 5
+invited: true
 authors:
 - Dinis O. Abranches
 - João A. P. Coutinho

@@ -3,6 +3,7 @@ name: What can UV Resonance Raman tell us about molecular liquids? From solution
 speakers:
 - Barbara Rossi
 track: EMLG/JMLG School
+invited: true
 authors:
 - B. Rossi
 affiliations:

@@ -3,6 +3,7 @@ name: 'Machine-learning-tuned force fields for refrigerants: transferability acr
 speakers:
 - Ed Maginn
 track: Session 8
+invited: true
 authors:
 - B. P. Agbodekhe
 - E. J. Maginn

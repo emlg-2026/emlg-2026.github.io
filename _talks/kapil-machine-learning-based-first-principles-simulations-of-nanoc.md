@@ -3,6 +3,7 @@ name: Machine learning-based first-principles simulations of nanoconfined water
 speakers:
 - Venkat Kapil
 track: Session 6
+invited: true
 authors:
 - V. Kapil
 affiliations:

@@ -3,6 +3,7 @@ name: Cosolvent Effects on Peptide Aggregation Studied with All-Atom MD and a So
 speakers:
 - Nobuyuki Matubayasi
 track: Session 10
+invited: true
 authors:
 - Nobuyuki Matubayasi
 affiliations:

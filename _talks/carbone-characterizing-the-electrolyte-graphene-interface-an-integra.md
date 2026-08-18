@@ -3,6 +3,7 @@ name: 'Characterizing the electrolyte/graphene interface: an integrated approach
 speakers:
 - Paola Carbone
 track: EMLG/JMLG School
+invited: true
 authors:
 - P. Carbone
 affiliations:
