@@ -1,4 +1,4 @@
 ---
 layout: talk-overview
-title: Abstracts
+title: Sessions
 ---

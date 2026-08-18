@@ -18,9 +18,6 @@ collections:
   speakers:
     output: true
     permalink: /speakers/:title/
-  rooms:
-    output: true
-    permalink: /rooms/:title/
 
 defaults:
   - scope:
@@ -38,11 +35,6 @@ defaults:
       type: posters
     values:
       layout: poster
-  - scope:
-      path: ""
-      type: rooms
-    values:
-      layout: room
 
 conference:
   lang: en
