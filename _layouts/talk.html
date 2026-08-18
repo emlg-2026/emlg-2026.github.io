@@ -121,13 +121,12 @@
 
   <nav class="talk-navigation d-print-none d-pwa-none mt-5">
 
-    <a
-      href="{{ page.collection | prepend: '/' | prepend: site.baseurl }}"
-      class="btn btn-outline-secondary me-2"
-    >
-      <i class="bi bi-megaphone" aria-hidden="true"></i>
-      &nbsp;{{ site.data.lang[site.conference.lang].overview | default: "Overview" }}
-    </a>
+
+<a href="{{ page.overview_url | prepend: site.baseurl }}"
+   class="btn btn-outline-secondary me-2">
+  <i class="bi bi-megaphone" aria-hidden="true"></i>&nbsp;
+  {{ site.data.lang[site.conference.lang].overview | default: "Overview" }}
+</a>
 
     {%- include get_program_config.html -%}
 

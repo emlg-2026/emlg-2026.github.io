@@ -29,6 +29,7 @@ defaults:
       type: talks
     values:
       layout: talk
+      overview_url: /sessions/
   - scope:
       path: ""
       type: speakers
