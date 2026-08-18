@@ -1,5 +1,5 @@
 days:
-- name: Mon 31 August
+- name: Monday 31
   abbr: Mon
   date: '2026-08-31'
   rooms:
@@ -56,7 +56,7 @@ days:
     - name: "Civic Reception (drinks and nibbles) – Glasgow City Chambers"
       time_start: '18:30'
       time_end: '20:00'
-- name: Tue 1 September
+- name: Tuesday 1
   abbr: Tue
   date: '2026-09-01'
   rooms:
@@ -110,7 +110,7 @@ days:
     - name: Coffee Break and Poster Session – TIC foyer
       time_start: '16:10'
       time_end: '18:00'
-- name: Wed 2 September
+- name: Wednesday 2
   abbr: Wed
   date: '2026-09-02'
   rooms:
@@ -158,7 +158,7 @@ days:
     - name: 'Gala Dinner: House for an Art Lover'
       time_start: '18:00'
       time_end: '22:00'
-- name: Thu 3 September
+- name: Thursday 3
   abbr: Thu
   date: '2026-09-03'
   rooms:
