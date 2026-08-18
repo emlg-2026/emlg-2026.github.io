@@ -50,10 +50,7 @@ days:
     - name: 'Structure-Making Solvation of Ferulic Acid in Protic and Aprotic Solvents: Experiments, Molecular Simulations, and Perspectives on Viscosity'
       time_start: '16:40'
       time_end: '17:00'
-    - name: 'EMLG/JMLG Board Meeting'
-      time_start: '17:00'
-      time_end: '18:00'
-    - name: 'Early-Career Networking Session'
+    - name: 'EMLG/JMLG Board Meeting | Early-Career Networking Session'
       time_start: '17:00'
       time_end: '18:00'
     - name: "Civic Reception (drinks and nibbles) – Glasgow City Chambers"
