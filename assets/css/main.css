@@ -216,4 +216,43 @@ header,
   }
 }
 
+.poster-group {
+  max-width: 1000px;
+}
 
+.poster-group-title {
+  display: inline-block;
+  padding: 0.45rem 0.8rem;
+  margin-bottom: 0.8rem;
+
+  background: var(--bs-secondary-bg);
+  border-left: 4px solid var(--bs-secondary);
+  font-size: 1.15rem;
+  font-weight: 700;
+}
+
+.poster-item {
+  border-left: 4px solid var(--bs-border-color);
+  padding: 0.35rem 0 0.5rem 0.75rem;
+  margin-bottom: 0.45rem;
+}
+
+.poster-title {
+  display: block;
+  color: var(--bs-body-color);
+  text-decoration: none;
+
+  font-size: 1.05rem;
+  font-weight: 400;
+  line-height: 1.35;
+}
+
+.poster-title:hover {
+  text-decoration: underline;
+}
+
+.poster-authors {
+  margin-top: 0.25rem;
+  font-size: 0.95rem;
+  color: var(--bs-secondary-color);
+}

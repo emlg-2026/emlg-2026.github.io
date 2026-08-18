@@ -6,24 +6,22 @@ permalink: /posters/
 
 # Posters
 
-<div class="poster-list">
+<div class="poster-group">
+  <div class="poster-group-title">Posters</div>
 
-{% assign posters = site.posters | sort: "name" %}
+  {% assign posters = site.posters | sort: "name" %}
 
-{% for poster in posters %}
-  <article class="poster-list-item">
-    <h3>
-      <a href="{{ poster.url | relative_url }}">
+  {% for poster in posters %}
+    <article class="poster-item">
+      <a class="poster-title" href="{{ poster.url | relative_url }}">
         {{ poster.name }}
       </a>
-    </h3>
 
-    {% if poster.authors %}
-      <div class="poster-list-authors">
-        {{ poster.authors | join: ", " }}
-      </div>
-    {% endif %}
-  </article>
-{% endfor %}
-
+      {% if poster.authors %}
+        <div class="poster-authors">
+          {{ poster.authors | join: ", " }}
+        </div>
+      {% endif %}
+    </article>
+  {% endfor %}
 </div>
