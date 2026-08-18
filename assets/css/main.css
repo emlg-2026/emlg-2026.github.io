@@ -40,7 +40,7 @@ header,
 }
 
 .program-table .program-talk {
-  width: auto !important;
+  width: calc(100% - 3.2 rem) !important;
   min-width: 0 !important;
 }
 
@@ -101,7 +101,7 @@ header,
 /* Make metadata feel like Sway chips */
 #main .badge,
 #main .btn,
-#main .talk-meta span {
+#main .talk-meta .poster-meta span {
   border-radius: 999px;
 }
 
@@ -215,3 +215,5 @@ header,
     padding: 0.4rem 0.65rem;
   }
 }
+
+

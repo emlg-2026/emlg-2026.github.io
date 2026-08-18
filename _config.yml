@@ -35,6 +35,11 @@ defaults:
       layout: speaker
   - scope:
       path: ""
+      type: posters
+    values:
+      layout: poster
+  - scope:
+      path: ""
       type: rooms
     values:
       layout: room
@@ -86,6 +91,10 @@ conference:
       - name: Speakers
         icon: people
         relative_url: /speakers/
-      - name: Abstract book PDF
-        icon: file-earmark-pdf
-        relative_url: /documents/EMLG2026-abstract-book.pdf
+      - name: Posters
+        icon: easel
+        relative_url: /posters/
+
+#      - name: Abstract book PDF
+#        icon: file-earmark-pdf
+#        relative_url: /documents/EMLG2026-abstract-book.pdf

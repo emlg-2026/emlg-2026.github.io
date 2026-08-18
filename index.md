@@ -28,6 +28,6 @@ G1 1RD
   </iframe>
 </div>
 
-Here you can go to <a href="https://www.strath.ac.uk/engineering/chemicalprocessengineering/emlgjmlg2026/">"the official webpage of the conference"</a>
+Here you can reach <a href="https://www.strath.ac.uk/engineering/chemicalprocessengineering/emlgjmlg2026/">webpage of the conference</a>
 
 
