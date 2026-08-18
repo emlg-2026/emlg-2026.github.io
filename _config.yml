@@ -86,7 +86,7 @@ conference:
       - name: Programme
         icon: calendar4-week
         relative_url: /program/
-      - name: Sessions Content 
+      - name: Sessions
         icon: journal-text
         relative_url: /sessions/
       - name: Speakers
