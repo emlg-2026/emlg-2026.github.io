@@ -1,5 +1,5 @@
 ---
-name: 'EMLG/JMLG Board Meeting | Early-Career Networking Session''
+name: 'EMLG/JMLG Board Meeting | Early-Career Networking Session'
 track: "Social / Other"
 ---
 
