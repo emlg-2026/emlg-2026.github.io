@@ -12,6 +12,9 @@ collections:
   talks:
     output: true
     permalink: /abstracts/:title/
+  posters:
+    output: true
+    permalink: /posters/:name/
   speakers:
     output: true
     permalink: /speakers/:title/
