@@ -24,7 +24,7 @@ where is the intramolecular potential energy of the solute, is the solvation fre
 
 Results and Discussion Configurational-entropy changes were calculated for linear alkanes and alkanediols from bent to extended states, and for carboxylic acids from syn to anti conformations in water. Figure 1 shows the configurational-entropy changes together with the corresponding free energy and energetic contribution. For linear alkanes and alkanediols, configurational-entropy changes increased with alkyl chain length, destabilizing the extended state. In butanoic acid, the syn conformation is stabilized mainly by energetic contributions. In contrast, in o-anisic acid, the configurational entropy of the anti conformation was more than 1 kcal/mol smaller than that of the syn conformation because of restricted rotational degrees of freedom induced by intramolecular hydrogen bond formation between the carboxyl and methoxy groups. Comparison with the quasi-harmonic approximation (QHA) showed that configurational entropy changes of linear alkanes and alkanediols are significantly larger with QHA than with the present method, indicating strong anharmonicity in these systems.
 
-![Figure 1 – The changes in configurational entropy, free-energy, and energetic contribution.]({{ '/assets/abstracts/accurate-computational-method-for-configurational-entropy-via-efficient/figure-1.emf' | relative_url }})
+![Figure 1 – The changes in configurational entropy, free-energy, and energetic contribution.]({{ '/assets/posters/accurate-computational-method-for-configurational-entropy-via-efficient/figure-1.emf' | relative_url }})
 
 *Figure 1 – The changes in configurational entropy, free-energy, and energetic contribution.*
 

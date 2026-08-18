@@ -18,7 +18,7 @@ In the Molecular Placevent method, explicit solvent molecules are placed through
 
 To demonstrate the performance, the molecular placevent method was applied to some protein systems and predicted solvent configurations were compared to neutron diffraction or joint X-ray/neutron data. The predicted positions and orientations of water molecules directly coordinated to the protein or ligand were in good agreement with the experimental results. A detailed discussion on the performance of the proposed method will be presented at the conference.
 
-![Figure from Matsui1.docx]({{ '/assets/abstracts/development-of-a-prediction-method-of-a-solvent-configuration/figure-1.png' | relative_url }})
+![Figure from Matsui1.docx]({{ '/assets/posters/development-of-a-prediction-method-of-a-solvent-configuration/figure-1.png' | relative_url }})
 
 Since molecular placevent method can determine solvent configurations including hydrogen atoms, it will be highly useful for elucidating the role of solvent, especially water, in biochemical systems where the application of neutron diffraction is challenging.
 

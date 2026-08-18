@@ -24,11 +24,11 @@ The position-dependent free energy plays a central role in dynamic Monte Carlo c
 
 Here we applied the method to water molecule in two soft materials, amorphous polylactic acid (PLA) and dipalmitoyl phosphatidyl choline (DPPC) and obtained the fine 3D free energy map with 0.05 nm resolution as shown in Fig. 1. The former is a solid polyester in which water molecule can make hydrogen bonds with the ester groups. The latter forms a bilayer where lipid molecules are ordered though they are still flexible and mobile. Water molecules can diffuse in both media. However, the diffusion mechanism must be very different from each other reflecting the difference in free energy landscape as clearly shown in the figure.
 
-![Figure from Okazaki1.docx]({{ '/assets/abstracts/molecular-dynamics-calculations-of-fine-3d-free-energy-map/figure-1.jpeg' | relative_url }})
+![Figure from Okazaki1.docx]({{ '/assets/posters/molecular-dynamics-calculations-of-fine-3d-free-energy-map/figure-1.jpeg' | relative_url }})
 
-![Figure from Okazaki1.docx]({{ '/assets/abstracts/molecular-dynamics-calculations-of-fine-3d-free-energy-map/figure-2.jpeg' | relative_url }})
+![Figure from Okazaki1.docx]({{ '/assets/posters/molecular-dynamics-calculations-of-fine-3d-free-energy-map/figure-2.jpeg' | relative_url }})
 
-![Figure 1 – Cross sections of the calculated 3D free energy of transfer of water molecule at kz=0 from vacuum to inside of the (left) PLA and (right) DPPC.]({{ '/assets/abstracts/molecular-dynamics-calculations-of-fine-3d-free-energy-map/figure-3.wmf' | relative_url }})
+![Figure 1 – Cross sections of the calculated 3D free energy of transfer of water molecule at kz=0 from vacuum to inside of the (left) PLA and (right) DPPC.]({{ '/assets/posters/molecular-dynamics-calculations-of-fine-3d-free-energy-map/figure-3.wmf' | relative_url }})
 
 *Figure 1 – Cross sections of the calculated 3D free energy of transfer of water molecule at kz=0 from vacuum to inside of the (left) PLA and (right) DPPC.*
 

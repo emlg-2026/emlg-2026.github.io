@@ -435,13 +435,14 @@ def main(argv: list[str] | None = None) -> int:
     ap.add_argument("docx", nargs="+", type=Path, help="DOCX file(s) or directories containing DOCX files")
     ap.add_argument("--talks-dir", type=Path, default=Path("_talks"))
     ap.add_argument("--assets-dir", type=Path, default=Path("assets/abstracts"))
-    ap.add_argument("--assets-url-prefix", default="/assets/abstracts", help="site URL prefix for extracted figures (default: /assets/abstracts)")
+    ap.add_argument("--assets-url-prefix", default=None, help="site URL prefix for extracted figures (defaults to asset-dir)")
     ap.add_argument("--threshold", type=float, default=0.86, help="minimum fuzzy-title score (default: 0.86)")
     ap.add_argument("--ambiguity-gap", type=float, default=0.04, help="minimum gap between top two matches (default: 0.04)")
     ap.add_argument("--dry-run", action="store_true", help="parse and match, but do not modify files")
     ap.add_argument("--allow-create", action="store_true", help="create a talk page if no programme match exists")
     args = ap.parse_args(argv)
-
+    if args.assets_url_prefix is None:
+        args.assets_url_prefix = str(args.assets_dir)
     sources: list[Path] = []
     for item in args.docx:
         if item.is_dir():

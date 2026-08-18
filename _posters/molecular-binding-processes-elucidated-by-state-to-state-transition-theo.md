@@ -19,7 +19,7 @@ abstract_source: Kasahara1.docx
 
 The dynamics of proteins, including folding and unfolding as well as ligand binding and unbinding, proceed through a number of intermediate states, which are closely related to biological functions. To elucidate the structural dynamics of biological systems based on molecular dynamics (MD) simulations, the Markov state model (MSM)[1] has been widely utilized. This method enables the description of long-timescale dynamics of the target molecule based on transitions between states that characterize distinct stable structures. A practical limitation is the need to introduce a coarse-grained timescale, namely, a lag time, in computing transition probabilities. It is known that the resulting kinetic properties, such as rate constants, can be sensitive to the choice of the lag time.
 
-![Figure 1 – Prediction of the time-correlation function (TCF) associated with the state change based on the short-timescale MD and IEPDYN[2] method.]({{ '/assets/abstracts/molecular-binding-processes-elucidated-by-state-to-state-transition-theo/figure-1.emf' | relative_url }})
+![Figure 1 – Prediction of the time-correlation function (TCF) associated with the state change based on the short-timescale MD and IEPDYN[2] method.]({{ '/assets/posters/molecular-binding-processes-elucidated-by-state-to-state-transition-theo/figure-1.emf' | relative_url }})
 
 *Figure 1 – Prediction of the time-correlation function (TCF) associated with the state change based on the short-timescale MD and IEPDYN[2] method.*
 

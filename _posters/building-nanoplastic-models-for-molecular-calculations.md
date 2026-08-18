@@ -23,7 +23,7 @@ Molecular simulations of plastic nanoparticles have become increasingly importan
 
 The most stable geometries obtained (Figure 1) show notable agreement with previously reported theoretical and experimental structures. Polyethylene, for instance, forms a highly ordered arrangement, with long chain segments predominantly in trans conformation, similarly to the crystal structure of this polymer. In contrast, polypropylene and polystyrene exhibit helical chain geometries characterized by alternating gauche and trans configurations along the backbone. For nylon-66, folding is more complex due to hydrogen bonding between amide groups, leading to parallel chains connected through hydrogen-bond networks within the particle. Finally, all optimized structures are made publicly available in an online repository, with the aim of supporting and advancing future simulation studies, including enabling ensemble-based investigations [1].
 
-![Figure from Szabo1.docx]({{ '/assets/abstracts/building-nanoplastic-models-for-molecular-calculations/figure-1.jpeg' | relative_url }})
+![Figure from Szabo1.docx]({{ '/assets/posters/building-nanoplastic-models-for-molecular-calculations/figure-1.jpeg' | relative_url }})
 
 Figure 1 – 3D structure of the obtained most stable plastic models
 

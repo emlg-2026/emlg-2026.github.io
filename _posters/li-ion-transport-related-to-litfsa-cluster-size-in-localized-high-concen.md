@@ -18,17 +18,17 @@ abstract_source: Ito1.docx
 
 ### Abstract
 
-![Figure from Ito1.docx]({{ '/assets/abstracts/li-ion-transport-related-to-litfsa-cluster-size-in-localized-high-concen/figure-1.png' | relative_url }})
+![Figure from Ito1.docx]({{ '/assets/posters/li-ion-transport-related-to-litfsa-cluster-size-in-localized-high-concen/figure-1.png' | relative_url }})
 
-![Figure from Ito1.docx]({{ '/assets/abstracts/li-ion-transport-related-to-litfsa-cluster-size-in-localized-high-concen/figure-2.png' | relative_url }})
+![Figure from Ito1.docx]({{ '/assets/posters/li-ion-transport-related-to-litfsa-cluster-size-in-localized-high-concen/figure-2.png' | relative_url }})
 
 Efficient Li+ transport is essential for the performance of lithium batteries. Localized high-concentration electrolytes (LHCEs) exhibit heterogeneous salt-rich and diluent-rich regions. Therefore, clarifying how this heterogeneous structure affects Li+ diffusion is important for understanding Li+ transport in LHCEs.
 
 In our previous study, we investigated an LHCE composed of FEC (solvent), TTE (diluent), and LiTFSA (salt), and showed that Li⁺ species in diluent-rich regions significantly contribute to the overall Li⁺ transport [1]. In this study, we examined two LHCEs composed of FEC, LiTFSA, and either nBME or tBME as the diluents, focusing on how differences in LiTFSA cluster structures affect Li+ transport. The molar ratio was LiTFSA:FEC:BME = 1:6:3.7.
 
-![Figure from Ito1.docx]({{ '/assets/abstracts/li-ion-transport-related-to-litfsa-cluster-size-in-localized-high-concen/figure-3.png' | relative_url }})
+![Figure from Ito1.docx]({{ '/assets/posters/li-ion-transport-related-to-litfsa-cluster-size-in-localized-high-concen/figure-3.png' | relative_url }})
 
-![Figure from Ito1.docx]({{ '/assets/abstracts/li-ion-transport-related-to-litfsa-cluster-size-in-localized-high-concen/figure-4.png' | relative_url }})
+![Figure from Ito1.docx]({{ '/assets/posters/li-ion-transport-related-to-litfsa-cluster-size-in-localized-high-concen/figure-4.png' | relative_url }})
 
 Cluster analysis revealed that the nBME and tBME systems formed different LiTFSA cluster structures (Figure 1). The cluster volume distribution showed that larger LiTFSA clusters were preferentially formed in the nBME system, whereas many smaller clusters were formed in the tBME system. This difference is likely related to the different coordination abilities of nBME and tBME toward Li⁺. tBME coordinates more readily with Li+ than nBME, which suppresses LiTFSA aggregation. As a result, the tBME system contains smaller LiTFSA clusters and more non-clustered Li+ species.
 
