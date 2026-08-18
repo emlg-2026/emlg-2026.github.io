@@ -3,8 +3,8 @@ layout: home
 links:
   - name: Programme
     relative_url: /program/
-  - name: Browse abstracts
-    relative_url: /talks/
+  - name: Sessions
+    relative_url: /sessions/
   - name: Speakers
     relative_url: /speakers/
 ---

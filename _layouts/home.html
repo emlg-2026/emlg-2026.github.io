@@ -1,0 +1,103 @@
+{% include header.html %}
+
+  <div class="bg-body-tertiary text-body-primary rounded p-4 p-md-5 mb-4">
+    <h1 class="display-3 text-break">
+      {% if page.header.img %}
+        {% if page.header.img_dark %}
+          <div class="mode-light">
+            <img src="{{ page.header.img | prepend: '/assets/images/' | prepend: site.baseurl }}" class="w-75 d-none d-md-inline" alt="{{ site.title }}" />
+            <img src="{{ page.header.img | prepend: '/assets/images/' | prepend: site.baseurl }}" class="w-100 d-md-none" alt="{{ site.title }}" />
+          </div>
+          <div class="mode-dark">
+            <img src="{{ page.header.img_dark | prepend: '/assets/images/' | prepend: site.baseurl }}" class="w-75 d-none d-md-inline" alt="{{ site.title }}" />
+            <img src="{{ page.header.img_dark | prepend: '/assets/images/' | prepend: site.baseurl }}" class="w-100 d-md-none" alt="{{ site.title }}" />
+          </div>
+        {% else %}
+          <img src="{{ page.header.img | prepend: '/assets/images/' | prepend: site.baseurl }}" class="w-75 d-none d-md-inline" alt="{{ site.title }}" />
+          <img src="{{ page.header.img | prepend: '/assets/images/' | prepend: site.baseurl }}" class="w-100 d-md-none" alt="{{ site.title }}" />
+        {% endif %}
+      {% elsif page.title %}
+        {{ page.title }}
+      {% else %}
+        {{ site.title }}
+      {% endif %}
+    </h1>
+
+    {% if site.description != none %}
+      <p class="lead">
+        {{ site.description | markdownify | replace: '<p>', '<p class="lead">' }}
+      </p>
+    {% endif %}
+
+    <hr class="my-4">
+
+    {{ content }}
+
+    {% if page.links %}
+      <div class="home-actions d-print-none">
+      {% assign btn_default = 'btn home-action-btn' %}
+
+      {% for link in page.links %}
+
+        {% if link.menu %}
+          <div class="dropdown d-inline">
+            <a class="{{ btn_default }} dropdown-toggle"
+               href="#"
+               role="button"
+               id="main-dropdown{{ forloop.index0 }}"
+               data-bs-toggle="dropdown"
+               aria-expanded="false">
+              {{ link.name }}
+            </a>
+
+            <div class="dropdown-menu" aria-labelledby="main-dropdown{{ forloop.index0 }}">
+              {% assign parent_link = link %}
+              {% for link in parent_link.menu %}
+                {% include get_link.html class="dropdown-item" %}
+                {{ link_tag }}
+                  {{ link.name }}
+                </a>
+              {% endfor %}
+            </div>
+          </div>
+
+        {% elsif link.live %}
+          {% if site.conference.live %}
+            {%- include get_live_timestamps.html -%}
+
+            <span class="live-show d-none d-print-none"
+                  data-start="{{ live_starts }}"
+                  data-end="{{ live_ends }}">
+              {%- include get_link.html class=btn_default -%}
+              {{ link_tag }}
+                {%- if link.name -%}
+                  {{ link.name }}
+                {%- else -%}
+                  {% include get_live_icon.html %}
+                {%- endif -%}
+              </a>
+            </span>
+
+            {%- if link.name_inactive -%}
+              <span class="live-hide d-print-inline {{ btn_default }} disabled"
+                    data-start="{{ live_starts }}"
+                    data-end="{{ live_ends }}">
+                {{ link.name_inactive }}
+              </span>
+            {%- endif -%}
+
+          {%- endif -%}
+
+        {% else %}
+          {% include get_link.html class=btn_default %}
+          {{ link_tag }}
+            {{ link.name }}
+          </a>
+        {% endif %}
+      {% endfor %}
+      </div>
+    {% endif %}
+
+  </div>
+
+{% include footer.html %}
