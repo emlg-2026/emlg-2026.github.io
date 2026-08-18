@@ -3,6 +3,7 @@ name: Surfactant Assembly and Disassembly far from Equilibrium
 speakers:
 - Colin Bain
 track: Session 1
+invited: true
 authors:
 - Colin D. Bain
 affiliations:

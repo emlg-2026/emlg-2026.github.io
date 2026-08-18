@@ -1,0 +1,19 @@
+{%- if talk.hide -%}
+  {{ talk.name }}
+
+  {% if talk.invited %}
+    <span class="badge text-bg-secondary ms-1">Invited</span>
+  {% endif %}
+
+{%- else -%}
+  <a
+    class="text-reset link-underline-{{ track_color }} link-underline-opacity-0 link-underline-opacity-100-hover"
+    href="{{ talk.url | prepend: site.baseurl }}"
+  >
+    {{ talk.name }}
+  </a>
+
+  {% if talk.invited %}
+    <span class="badge text-bg-secondary ms-1">Invited</span>
+  {% endif %}
+{%- endif -%}
