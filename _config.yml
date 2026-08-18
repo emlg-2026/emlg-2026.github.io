@@ -88,7 +88,7 @@ conference:
         relative_url: /program/
       - name: Sessions Content 
         icon: journal-text
-        relative_url: /talks/
+        relative_url: /sessions/
       - name: Speakers
         icon: people
         relative_url: /speakers/
