@@ -1,5 +1,5 @@
 ---
-name: 'When Theory Meets Experiment: What Does it Take to Accurately Predict ¹H NMR Dipolar Relaxation Rates in Neat Liquid Water from Theory?'
+name: 'When Theory Meets Experiment: What Does it Take to Accurately Predict 1H NMR Dipolar Relaxation Rates in Neat Liquid Water from Theory?'
 speakers:
 - Dietmar Paschek
 track: Session 4
