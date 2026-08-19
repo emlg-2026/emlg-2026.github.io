@@ -325,6 +325,7 @@ header,
 
   .book-entry {
     break-before: page;
+    overflow: visible !important;
   }
 
   .book-entry img {
@@ -341,6 +342,24 @@ header,
     orphans: 3;
     widows: 3;
   }
+
+  /* Keep Markdown-generated figures on one page */
+  .book-entry p:has(> img) {
+    break-inside: avoid !important;
+    page-break-inside: avoid !important;
+  }
+
+  .book-entry p:has(> img) img {
+    display: block;
+    width: auto;
+    max-width: 100% !important;
+    max-height: 230mm !important;
+    height: auto !important;
+    object-fit: contain;
+    margin: 0 auto;
+  }
+
+  
 
   @page {
     size: A4;
