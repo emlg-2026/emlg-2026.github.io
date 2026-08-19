@@ -258,6 +258,26 @@ header,
   color: var(--bs-secondary-color);
 }
 
+.poster-item {
+  display: flex;
+  gap: 0.8rem;
+  align-items: flex-start;
+  border-left: 4px solid var(--bs-border-color);
+  padding: 0.45rem 0 0.55rem 0.75rem;
+  margin-bottom: 0.45rem;
+}
+
+.poster-number {
+  flex: 0 0 2rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--bs-secondary-color);
+}
+
+.poster-list-content {
+  min-width: 0;
+}
+
 /* Home-page navigation buttons */
 .home-actions {
   display: flex;

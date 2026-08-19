@@ -1,4 +1,5 @@
 ---
+number: 7
 name: Accurate computational method for configurational entropy via efficient solvation free energy calculation
 speakers: []
 authors:

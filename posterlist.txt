@@ -1,0 +1,26 @@
+1.	Dinis Abranches, University of Aveiro; “Predicting and Understanding Peptide Aggregation using Stochastic Machine Learning”
+2.	Dinis Abranches, University of Aveiro; “Rational Design of Deep Eutectic Electrolytes For Sustainable Energy Storage”
+3.	Yashna Dawer, University of Bonn; “Effects of amphoteric molecules on proton conduction in the [C2HIm][OAc] Pseudo-Protic Ionic Liquid system”
+4.	Kazushi Fujimoto, Kansai University; “Molecular Origin of Triglyceride Viscosity and Water Transport”
+5.	Laura Hernandez-Fernandez, University of the Basque Country; “Extraction and Speciation of Nickel and Cobalt in Choline Chloride-Based Deep Eutectic Solvents”
+6.	Yuki Ito, Kansai University; “Li-ion Transport Related to LiTFSA Cluster Size in Localized High-Concentration Electrolytes Using Molecular Dynamics Simulations”
+7.	Ryoma Kaji, University of Osaka; “Accurate computational method for configurational entropy via efficient solvation free energy calculation”
+8.	Kento Kasahara, University of Osaka; “Molecular Binding Processes Elucidated by State-to-State Transition Theory and Molecular Dynamics Simulation”
+9.	Lennard Kruse, University of Rostock; “Concentration-Dependent Dynamics in Solvate Ionic Liquids via NMR Relaxometry”
+10.	Zoe MacPherson, University of Strathclyde; “Automating the Self-Consistent Electrostatic Embedding Model”
+11.	Pujarini Mahapatra, Indian Institute of Technology Guwahati; “Understanding the Nature of Hydration of Aqueous Alkali Metal Carbonates Employing Molecular Dynamics Simulations”
+12.	Yusei Matsui, Nagoya University; “Development of a prediction method of a solvent configuration based on Extended Molecular Ornstein-Zernike theory”
+13.	Susumu Okazaki, Yokohama City University; “Molecular Dynamics Calculations of Fine 3D Free Energy Map for Water Molecule Solved in Polymers and Lipid Bilayers”
+14.	Thomas Paterson, University of Strathclyde; “Using the Zeno line to assess and refine molecular models”
+15.	Samuel Proctor, University of Edinburgh; “Monolayers or Micelles? The Unusual Adsorption of  Ionic Surfactants onto Inorganic Surfaces”
+16.	Bernd Rathke, Universität Bremen; “Insights on Liquid-Liquid Equilibria By Application of Flory-Huggins Approach”
+17.	Anne Strate, University of Rostock; “Probing Ion Dynamics in Ionic Liquids with Fast Field Cycling NMR Relaxometry”
+18.	Boglárka Szabó, University of Debrecen; “Building Nanoplastic Models for Molecular Calculations”
+19.	Ikki Takahashi, Ritsumeikan University; “Molecular Dynamics Study on the Cosolvency Mechanism of Poly(methyl acrylate) in Ethanol/Water Mixtures”
+20.	Helga Tóth Ugyonka, Eszterházy Károly Catholic University; “Computer Simulation Study of the Solvation of Inorganic Salts in N,N-Dimethylformamide”
+21.	Andrij Trokhymchuk, National Academy of Sciences of Ukraine; “Evolution of Equation of State for Molecular Fluids: Reconciling Molecular Rigor with Industrial Engineering Demands”
+22.	Federica Tuteri, University of Perugia; “Spectroscopic study of intermolecular interactions in mixtures of lithium nitrate with protic ionic liquids”
+23.	Mónika Valiskó, University of Pannonia; “Selectivity of Nanopores: Extending the Scalability Framework to Concentration Gradient Conditions Across Membrane Interfaces”
+24.	Maxim Varenicja, University of Debrecen; “On the interactions between nucleic acids and nanoplastics”
+25.	Alice Waren, University of Strathclyde; “Investigating phase behaviour of lipid-water-ethanol systems in lipid nanoparticle (LNP) formation”
+26.	Klaas Wynne, University of Glasgow; “Solution-Phase Co-Oligomer Analysis as a Predictive Tool for Co-Crystal and Co-Amorphous Forms”
