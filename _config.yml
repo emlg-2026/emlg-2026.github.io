@@ -78,7 +78,7 @@ conference:
       - name: Session 10
         color: danger
       - name: Session 11
-        color: secondary
+        color: success
 
 
 
