@@ -1,4 +1,5 @@
 ---
+exclude_from_book: true
 name: 'EMLG/JMLG Board Meeting | Early-Career Networking Session'
 track: "Social / Other"
 ---

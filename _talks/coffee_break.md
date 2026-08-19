@@ -1,4 +1,5 @@
 ---
+exclude_from_book: true
 name: Coffee Break – TIC foyer
 speakers:
 - ""

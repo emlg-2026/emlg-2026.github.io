@@ -1,4 +1,5 @@
 ---
+exclude_from_book: true
 name: 'Gala Dinner: House for an Art Lover'
 speakers:
 - ""

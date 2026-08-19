@@ -1,4 +1,5 @@
 ---
+exclude_from_book: true
 name: Coffee Break and Poster Session – TIC foyer
 speakers:
 - ""

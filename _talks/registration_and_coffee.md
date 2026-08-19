@@ -1,4 +1,5 @@
 ---
+exclude_from_book: true
 name: Registration and Coffee
 speakers:
 - ""

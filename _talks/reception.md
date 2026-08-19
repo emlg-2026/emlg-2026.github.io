@@ -1,4 +1,5 @@
 ---
+exclude_from_book: true
 name: "Civic Reception (drinks and nibbles) – Glasgow City Chambers"
 track: "Social / Other"
 ---

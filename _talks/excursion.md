@@ -1,4 +1,5 @@
 ---
+exclude_from_book: true
 name: Conference Excursion – New Lanark World Heritage Site
 speakers:
 - ""

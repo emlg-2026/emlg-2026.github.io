@@ -1,4 +1,5 @@
 ---
+exclude_from_book: true
 name: EMLG/JMLG General Assembly and Closing
 speakers:
 - ""

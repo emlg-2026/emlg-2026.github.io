@@ -96,7 +96,6 @@ conference:
       - name: Posters
         icon: easel
         relative_url: /posters/
-
-#      - name: Abstract book PDF
-#        icon: file-earmark-pdf
-#        relative_url: /documents/EMLG2026-abstract-book.pdf
+      - name: Book of Abstracts
+        icon: file-earmark-pdf
+        relative_url: /documents/emlg-jmlg-2025-book-of-abstracts.pdf
