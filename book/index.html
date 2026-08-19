@@ -1,0 +1,59 @@
+---
+layout: default
+title: Book of Abstracts
+permalink: /book/
+---
+
+<h1>EMLG/JMLG 2026 — Book of Abstracts</h1>
+
+<section class="book-programme">
+  <h2>Programme</h2>
+
+  <!-- programme rendering goes here -->
+</section>
+
+<section class="book-talks">
+  <h2>Oral Contributions</h2>
+
+  {% for talk in site.talks %}
+    <article class="book-entry">
+      <h3>{{ talk.name }}</h3>
+
+      {% if talk.authors %}
+        <div class="abstract-authors">
+          {{ talk.authors | join: ", " }}
+        </div>
+      {% endif %}
+
+      {% if talk.affiliations %}
+        <div class="abstract-affiliations">
+          {% for affiliation in talk.affiliations %}
+            <div>{{ affiliation }}</div>
+          {% endfor %}
+        </div>
+      {% endif %}
+
+      {{ talk.content }}
+    </article>
+  {% endfor %}
+</section>
+
+<section class="book-posters">
+  <h2>Posters</h2>
+
+  {% assign posters = site.posters | sort: "number" %}
+
+  {% for poster in posters %}
+    <article class="book-entry">
+      <h3>Poster {{ poster.number }} — {{ poster.name }}</h3>
+
+      {% if poster.authors %}
+        <div class="abstract-authors">
+          {{ poster.authors | join: ", " }}
+        </div>
+      {% endif %}
+
+      {{ poster.content }}
+    </article>
+  {% endfor %}
+</section>

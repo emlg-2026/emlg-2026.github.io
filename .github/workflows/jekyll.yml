@@ -48,6 +48,37 @@ jobs:
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
         env:
           JEKYLL_ENV: production
+
+#      - name: Install Chromium
+#        run: |
+#          sudo apt-get update
+#          sudo apt-get install -y chromium-browser
+#
+#      - name: Start local web server
+#        run: |
+#          python3 -m http.server 4000 --directory _site &
+#          sleep 3
+#
+#      - name: Create abstract book PDF
+#        run: |
+#          mkdir -p _site/documents
+#
+#          chromium-browser \
+#            --headless \
+#            --no-sandbox \
+#            --disable-gpu \
+#            --print-to-pdf=_site/documents/EMLG2026-abstract-book.pdf \
+#            --print-to-pdf-no-header \
+#            http://127.0.0.1:4000/book/
+#
+#      - name: Check generated PDF
+#        run: |
+#          ls -lh _site/documents/EMLG2026-abstract-book.pdf
+
+      # -----------------------------------------------------
+      # Upload finished site, including generated PDF
+      # -----------------------------------------------------
+
       - name: Upload artifact
         # Automatically uploads an artifact from the './_site' directory by default
         uses: actions/upload-pages-artifact@v3

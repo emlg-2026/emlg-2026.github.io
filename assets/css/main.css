@@ -309,3 +309,41 @@ header,
   background: var(--bs-secondary-bg);
   color: var(--bs-body-color);
 }
+
+@media print {
+
+  .navbar,
+  footer,
+  .talk-navigation,
+  .d-print-none {
+    display: none !important;
+  }
+
+  #main {
+    max-width: none !important;
+  }
+
+  .book-entry {
+    break-before: page;
+  }
+
+  .book-entry img {
+    max-width: 100%;
+    max-height: 22cm;
+    object-fit: contain;
+  }
+
+  h1, h2, h3 {
+    break-after: avoid;
+  }
+
+  p {
+    orphans: 3;
+    widows: 3;
+  }
+
+  @page {
+    size: A4;
+    margin: 18mm 16mm 18mm 16mm;
+  }
+}
